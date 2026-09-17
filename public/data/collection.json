@@ -1,0 +1,54 @@
+{
+  "albums": [
+    {
+      "id": 14,
+      "artist": "Misae Enomoto",
+      "artistJa": "榎本美佐江",
+      "title": "Meikyokushu",
+      "titleJa": "名曲集",
+      "cover": "14_enomoto_meikyoku.jpg",
+      "label": "JV",
+      "catalog": "SJX-150"
+    },
+    {
+      "id": 21,
+      "artist": "Harumi Kaneko",
+      "artistJa": "金子晴美",
+      "title": "I Love New York",
+      "titleJa": "アイ・ラヴ・ニューヨーク",
+      "cover": "21_kaneko_i_love_ny.jpg",
+      "label": "Philips",
+      "catalog": "FS-7032"
+    },
+    {
+      "id": 27,
+      "artist": "Sumiko Yamagata",
+      "artistJa": "やまがたすみこ",
+      "title": "Kaze, Sora",
+      "titleJa": "風・空・そして愛",
+      "cover": "27_yamagata_kaze_sora.jpg",
+      "label": null,
+      "catalog": null
+    },
+    {
+      "id": 29,
+      "artist": "Sachiko Nishida",
+      "artistJa": "西田佐知子",
+      "title": "Jogashima no Ame",
+      "titleJa": "城ヶ島の雨",
+      "cover": "29_nishida_jogashima.jpg",
+      "label": "Polydor",
+      "catalog": null
+    },
+    {
+      "id": 30,
+      "artist": "Sachiko Kobayashi",
+      "artistJa": "小林幸子",
+      "title": "Omoide Sake",
+      "titleJa": "おもいで酒",
+      "cover": "30_kobayashi_omoide_sake.jpg",
+      "label": "Warner Pioneer",
+      "catalog": "L-10148W"
+    }
+  ]
+}
