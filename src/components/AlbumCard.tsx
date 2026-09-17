@@ -1,37 +1,21 @@
-import type { Album } from '../types';
+import type { Album, Language } from '../types';
 import { CoverArt } from './CoverArt';
+import { displayText } from '../utils';
 
-interface Props {
-  album: Album;
-  onSelect: (album: Album) => void;
-}
-
-export function AlbumCard({ album, onSelect }: Props) {
-  const year =
-    album.year && /\d{4}/.test(album.year) ? album.year.match(/\d{4}/)![0] : '—';
-
-  return (
-    <button
-      type="button"
-      className="album-card"
-      onClick={() => onSelect(album)}
-    >
-      <CoverArt album={album} size="card" />
-      <div className="album-card__meta">
-        <h2 className="album-card__title">
-          {album.titleJa || album.titleEn}
-        </h2>
-        {album.titleEn && album.titleJa && album.titleEn !== album.titleJa && (
-          <p className="album-card__title-ja">{album.titleEn}</p>
-        )}
-        <p className="album-card__artist">
-          {album.artistJa || album.artistEn}
-          {album.artistJa && album.artistEn && album.artistJa !== album.artistEn ? (
-            <span className="album-card__artist-ja"> · {album.artistEn}</span>
-          ) : null}
-        </p>
-        <p className="album-card__year">{year}</p>
-      </div>
-    </button>
-  );
+export function AlbumCard({ album, language, onSelect }: {
+  album: Album; language: Language; onSelect: (album: Album) => void;
+}) {
+  const [title, subtitle] = displayText(album.titleEn, album.titleJa, language);
+  const [artist, otherArtist] = displayText(album.artistEn, album.artistJa, language);
+  return <button className="album-card" onClick={() => onSelect(album)}>
+    <CoverArt album={album} />
+    <div className="album-card__meta">
+      <p className="album-card__artist">{artist}</p>
+      {otherArtist && <p className="secondary" lang={language === 'en' ? 'ja' : 'en'}>{otherArtist}</p>}
+      <h2 className="album-card__title">{title}</h2>
+      {subtitle && <p className="album-card__title-ja" lang={language === 'en' ? 'ja' : 'en'}>{subtitle}</p>}
+      <p className="album-card__year">{album.year || 'Year unknown'} · #{album.id}</p>
+      {album.verificationIssues.length > 0 && <span className="badge">Needs verification</span>}
+    </div>
+  </button>;
 }

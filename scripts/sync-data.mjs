@@ -1,59 +1,27 @@
 #!/usr/bin/env node
-/**
- * Rebuild public/data/collection.json from cover files in public/covers.
- *
- * Existing metadata (artist, title, label, catalog) is preserved when the
- * cover filename already has an entry. New covers only get an id and a
- * filename-derived slug — album facts are never invented.
- */
-import { readdir, readFile, writeFile } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
-
-const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const coversDir = join(root, 'public', 'covers')
-const dataPath = join(root, 'public', 'data', 'collection.json')
-
-const COVER_RE = /^(\d+)_(.+)\.(jpe?g|png|webp)$/i
-
-function slugToWords(slug) {
-  return slug.replace(/_/g, ' ').trim()
-}
-
-async function loadExisting() {
-  try {
-    const raw = await readFile(dataPath, 'utf8')
-    const parsed = JSON.parse(raw)
-    const albums = Array.isArray(parsed) ? parsed : parsed.albums
-    return Array.isArray(albums) ? albums : []
-  } catch (err) {
-    if (err && err.code === 'ENOENT') return []
-    throw err
+// The workbook is authoritative. CSV and browser JSON are generated together.
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { readSheet } from 'read-excel-file/node';
+import { rowsToObjects, toCsv, buildCollection } from './catalog.mjs';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const workbook = path.join(root,'data','record_collection.xlsx');
+const albumData = await readSheet(workbook,'Albums');
+const trackData = await readSheet(workbook,'Tracks');
+const collection = buildCollection(rowsToObjects(albumData,'Albums'),rowsToObjects(trackData,'Tracks'),root);
+const outputs = [
+  ['data/record_collection.csv',toCsv(albumData)],
+  ['data/record_collection_tracks.csv',toCsv(trackData)],
+  ['public/data/collection.json',JSON.stringify(collection,null,2)+'\n'],
+];
+for (const [filename,content] of outputs) {
+  const target=path.join(root,filename);
+  if (process.argv.includes('--check')) {
+    if (!fs.existsSync(target) || fs.readFileSync(target,'utf8').replaceAll('\r\n','\n') !== content) throw new Error(`${filename} is stale. Run npm run sync-data.`);
+  } else {
+    fs.mkdirSync(path.dirname(target),{recursive:true});
+    fs.writeFileSync(target,content);
   }
 }
-
-const files = (await readdir(coversDir)).filter((name) => COVER_RE.test(name))
-const existing = await loadExisting()
-const byCover = new Map(existing.map((album) => [album.cover, album]))
-
-const albums = files
-  .map((cover) => {
-    const match = cover.match(COVER_RE)
-    const id = Number(match[1])
-    const slug = match[2]
-    const prev = byCover.get(cover) ?? {}
-    return {
-      id,
-      artist: prev.artist ?? null,
-      artistJa: prev.artistJa ?? null,
-      title: prev.title ?? slugToWords(slug),
-      titleJa: prev.titleJa ?? null,
-      cover,
-      label: prev.label ?? null,
-      catalog: prev.catalog ?? null,
-    }
-  })
-  .sort((a, b) => a.id - b.id)
-
-await writeFile(dataPath, `${JSON.stringify({ albums }, null, 2)}\n`)
-console.log(`Wrote ${albums.length} album(s) to public/data/collection.json`)
+console.log(`Validated ${collection.albumCount} albums and ${trackData.length-1} tracks; ${collection.albums.filter(a=>!a.coverImage).length} artwork matches pending.`);

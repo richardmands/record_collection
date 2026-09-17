@@ -16,17 +16,17 @@ export function CoverArt({ album, size = 'card' }: Props) {
     <div
       className={`cover cover--${size}`}
       style={showImg ? undefined : { background: gradientForId(album.id) }}
-      aria-hidden={!showImg}
     >
       {showImg ? (
         <img
           src={src!}
-          alt=""
-          loading="lazy"
+          alt={`${album.artistEn || album.artistJa}: ${album.titleEn || album.titleJa} cover`}
+          loading={size === 'card' ? 'lazy' : 'eager'}
+          decoding="async"
           onError={() => setFailed(true)}
         />
       ) : (
-        <span className="cover__initials">{initials(album)}</span>
+        <div className="cover__initials"><span>{initials(album)}</span><small>Artwork pending</small></div>
       )}
       <div className="cover__shine" />
     </div>

@@ -23,13 +23,29 @@ export interface Album {
   coverImage: string;
   discogsUrl: string;
   tracks: Track[];
+  researchNotes: string;
+  verificationStatus: string;
+  verificationIssues: string[];
+  coverStatus: string;
+  coverSource: string;
+  shelfLocation: string;
+  vinylCondition: string;
+  sleeveCondition: string;
+  obi: string;
+  inserts: string;
+  purchaseDate: string;
+  pricePaid: string;
+  purchaseCurrency: string;
 }
 
 export interface Collection {
   version: number;
   albumCount: number;
   albums: Album[];
+  updatedAt: string;
 }
+
+export type Language = 'en' | 'ja';
 
 export type SortKey =
   | 'artistEn'

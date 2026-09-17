@@ -1,9 +1,8 @@
-import type { Album, SortKey } from './types';
+import type { Album, SortKey, Language } from './types';
 
 export function coverUrl(filename: string | undefined): string | null {
   if (!filename) return null;
-  // Cache-bust so online covers replace old photo crops after refresh
-  return `/covers/${filename}?v=online2`;
+  return `/covers/${encodeURIComponent(filename)}`;
 }
 
 export function initials(album: Album): string {
@@ -52,7 +51,7 @@ export function sortAlbums(albums: Album[], key: SortKey): Album[] {
 }
 
 export function matchesSearch(album: Album, query: string): boolean {
-  const q = query.trim().toLowerCase();
+  const q = normalizeSearch(query);
   if (!q) return true;
   const hay = [
     album.artistEn,
@@ -62,11 +61,35 @@ export function matchesSearch(album: Album, query: string): boolean {
     album.label,
     album.catalogNumber,
     album.genre,
+    album.id,
+    album.year,
+    ...album.tracks.flatMap((t) => [t.titleEn, t.titleJa]),
   ]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();
-  return hay.includes(q);
+  const normalized = normalizeSearch(hay);
+  return q.split(/\s+/).every((word) => normalized.includes(word));
+}
+
+export function normalizeSearch(value: string): string {
+  return value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
+}
+
+export function displayText(en: string, ja: string, language: Language): [string, string] {
+  const primary = (language === 'en' ? en : ja) || en || ja || 'Not identified';
+  const secondary = language === 'en' ? ja : en;
+  return [primary, secondary === primary ? '' : secondary];
+}
+
+export function decade(album: Album): string {
+  const year = parseYear(album.year);
+  return year ? `${Math.floor(year / 10) * 10}s` : 'Unknown';
+}
+
+export function genres(album: Album): string[] {
+  return album.genre.split('/').map((s) => s.trim()).filter(Boolean);
 }
 
 function hash(s: string): number {

@@ -1,147 +1,84 @@
-import type { Album, Track } from '../types';
+import { useEffect, useRef, useState } from 'react';
+import type { Album, Language } from '../types';
 import { CoverArt } from './CoverArt';
+import { coverUrl, displayText } from '../utils';
 
-interface Props {
-  album: Album;
-  onClose: () => void;
-}
-
-function groupBySide(tracks: Track[]): { side: string; tracks: Track[] }[] {
-  const order: string[] = [];
-  const map = new Map<string, Track[]>();
-  for (const t of tracks) {
-    const side = t.side || '?';
-    if (!map.has(side)) {
-      map.set(side, []);
-      order.push(side);
-    }
-    map.get(side)!.push(t);
+export function AlbumDetail({ album, language, onClose, onPrevious, onNext }: {
+  album: Album; language: Language; onClose: () => void; onPrevious?: () => void; onNext?: () => void;
+}) {
+  const dialog = useRef<HTMLDialogElement>(null);
+  const [zoom, setZoom] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [copyError, setCopyError] = useState(false);
+  const [title, subtitle] = displayText(album.titleEn, album.titleJa, language);
+  const [artist, otherArtist] = displayText(album.artistEn, album.artistJa, language);
+  useEffect(() => {
+    const el = dialog.current;
+    el?.showModal();
+    return () => el?.close();
+  }, []);
+  const sideNames = [...new Set(album.tracks.map(t => t.side || '?'))];
+  const facts = [
+    ['Catalogue number', album.catalogNumber], ['Release year', album.year],
+    ['Label', album.label], ['Format', album.format], ['Country', album.country],
+    ['Genre', album.genre], ['Original retail price', album.retailPriceJpy],
+  ];
+  const copyFacts = [
+    ['Shelf location', album.shelfLocation], ['Vinyl condition', album.vinylCondition],
+    ['Sleeve condition', album.sleeveCondition], ['Obi', album.obi], ['Inserts', album.inserts],
+    ['Purchase date', album.purchaseDate], ['Price paid', album.pricePaid ? [album.purchaseCurrency, album.pricePaid].filter(Boolean).join(' ') : ''],
+  ];
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(location.href); setCopied(true); setCopyError(false); }
+    catch { setCopied(false); setCopyError(true); }
   }
-  return order.map((side) => ({
-    side,
-    tracks: map.get(side)!.slice().sort((a, b) => {
-      const na = Number(a.number) || 0;
-      const nb = Number(b.number) || 0;
-      return na - nb;
-    }),
-  }));
-}
-
-export function AlbumDetail({ album, onClose }: Props) {
-  const sides = groupBySide(album.tracks || []);
-  const yearLabel =
-    album.year && /\d{4}/.test(album.year)
-      ? album.year.match(/\d{4}/)![0]
-      : album.year || 'Unknown';
-
-  return (
-    <div
-      className="detail-overlay"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="detail-title"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) onClose();
-      }}
-    >
-      <div className="detail-panel">
-        <button type="button" className="detail-close" onClick={onClose}>
-          ← Back
-        </button>
-
-        <div className="detail-hero">
-          <CoverArt album={album} size="detail" />
-          <div className="detail-hero__text">
-            <p className="detail-kicker">#{album.id}</p>
-            <h1 id="detail-title" className="detail-title">
-              {album.titleJa || album.titleEn}
-            </h1>
-            {album.titleEn && album.titleJa && album.titleEn !== album.titleJa && (
-              <p className="detail-title-ja">{album.titleEn}</p>
-            )}
-            <p className="detail-artist">
-              {album.artistJa || album.artistEn}
-              {album.artistJa && album.artistEn && album.artistJa !== album.artistEn ? (
-                <span className="detail-artist-ja"> / {album.artistEn}</span>
-              ) : null}
-            </p>
-            <dl className="detail-facts">
-              <div>
-                <dt>Catalog</dt>
-                <dd>{album.catalogNumber || '—'}</dd>
-              </div>
-              <div>
-                <dt>Year</dt>
-                <dd>{yearLabel}</dd>
-              </div>
-              <div>
-                <dt>Label</dt>
-                <dd>{album.label || '—'}</dd>
-              </div>
-              <div>
-                <dt>Format</dt>
-                <dd>{album.format || '—'}</dd>
-              </div>
-              <div>
-                <dt>Genre</dt>
-                <dd>{album.genre || '—'}</dd>
-              </div>
-              <div>
-                <dt>Price</dt>
-                <dd>{album.retailPriceJpy || '—'}</dd>
-              </div>
-            </dl>
-            {album.discogsUrl && (
-              <a
-                className="detail-discogs"
-                href={album.discogsUrl}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Search on Discogs ↗
-              </a>
-            )}
+  return <dialog ref={dialog} className="record-dialog" aria-labelledby="detail-title"
+    onCancel={e => { e.preventDefault(); if (zoom) setZoom(false); else onClose(); }}
+    onClick={e => { if (e.target === e.currentTarget) { const r = e.currentTarget.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) onClose(); } }}>
+    <nav className="detail-nav" aria-label="Record navigation">
+      <button autoFocus onClick={() => zoom ? setZoom(false) : onClose()}>{zoom ? '← Album details' : '← Collection'}</button>
+      <div><button disabled={!onPrevious} onClick={onPrevious} aria-label="Previous album">← Previous</button>
+      <button disabled={!onNext} onClick={onNext} aria-label="Next album">Next →</button></div>
+    </nav>
+    {zoom ? <section className="artwork-view">
+      <h2 id="detail-title">{title}</h2>
+      <img src={coverUrl(album.coverImage)!} alt={`${artist} — ${title} cover artwork`} />
+      <p>Source image at its available resolution.</p>
+      {album.coverSource && <a href={album.coverSource} target="_blank" rel="noreferrer">Artwork source ↗</a>}
+    </section> : <div className="detail-content">
+      <div className="detail-hero">
+        <div>{album.coverImage ? <button className="cover-enlarge" onClick={() => setZoom(true)} aria-label="Enlarge cover artwork">
+          <CoverArt album={album} size="detail" /><span>Enlarge artwork ↗</span>
+        </button> : <CoverArt album={album} size="detail" />}
+        {album.coverSource && <a className="source-link" href={album.coverSource} target="_blank" rel="noreferrer">Artwork source ↗</a>}
+        </div>
+        <div className="detail-hero__text">
+          <p className="detail-kicker">Record #{album.id}</p>
+          <h2 id="detail-title" className="detail-title">{title}</h2>
+          {subtitle && <p className="detail-title-ja" lang={language === 'en' ? 'ja' : 'en'}>{subtitle}</p>}
+          <p className="detail-artist">{artist}{otherArtist && <span className="detail-artist-ja"> / {otherArtist}</span>}</p>
+          <dl className="detail-facts">{facts.map(([name,value]) => <div key={name}><dt>{name}</dt><dd>{value || 'Not confirmed'}</dd></div>)}</dl>
+          <div className="detail-links">
+            {album.discogsUrl && <a href={album.discogsUrl} target="_blank" rel="noreferrer">{album.discogsUrl.includes('/release/') ? 'View release on Discogs' : 'Search Discogs'} ↗</a>}
+            <button className="text-button" onClick={copyLink}>Copy album link</button><span role="status">{copied ? 'Link copied' : copyError ? 'Copy the address from your browser to share this record.' : ''}</span>
           </div>
         </div>
-
-        {album.notes && (
-          <section className="detail-notes">
-            <h2>Notes</h2>
-            <p>{album.notes}</p>
-          </section>
-        )}
-
-        <section className="detail-tracks">
-          <h2>Tracks</h2>
-          {sides.length === 0 ? (
-            <p className="muted">No track listing yet.</p>
-          ) : (
-            sides.map(({ side, tracks }) => (
-              <div key={side} className="side-block">
-                <h3 className="side-label">Side {side}</h3>
-                <ol className="track-list">
-                  {tracks.map((t) => (
-                    <li key={`${side}-${t.number}-${t.titleEn || t.titleJa}`}>
-                      <span className="track-num">{t.number}</span>
-                      <span className="track-titles">
-                        <span className="track-en">
-                          {t.titleJa || t.titleEn}
-                        </span>
-                        {t.titleJa && t.titleEn && t.titleJa !== t.titleEn && (
-                          <span className="track-ja">{t.titleEn}</span>
-                        )}
-                      </span>
-                      {t.duration && (
-                        <span className="track-dur">{t.duration}</span>
-                      )}
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            ))
-          )}
-        </section>
       </div>
-    </div>
-  );
+      {album.verificationIssues.length > 0 && <section className="verification"><h3>Needs verification</h3>
+        <ul>{album.verificationIssues.map(issue => <li key={issue}>{issue}</li>)}</ul>
+      </section>}
+      {album.notes && <section className="detail-notes"><h3>About this record</h3><p>{album.notes}</p></section>}
+      <section className="detail-notes"><h3>My copy</h3><dl className="detail-facts">{copyFacts.map(([name,value]) => <div key={name}><dt>{name}</dt><dd>{value || 'Not recorded'}</dd></div>)}</dl></section>
+      {album.researchNotes && <details className="research-notes"><summary>Identification and research notes</summary><p>{album.researchNotes}</p></details>}
+      <section className="detail-tracks"><h3>Track listing</h3>
+        {!sideNames.length && <p className="muted">Track listing not yet recorded.</p>}
+        <div className="sides-grid">{sideNames.map(side => <div className="side-block" key={side}><h4 className="side-label">Side {side}</h4>
+          <ol className="track-list">{album.tracks.filter(t => (t.side || '?') === side).sort((a,b) => Number(a.number)-Number(b.number)).map(t => {
+            const [name,other] = displayText(t.titleEn,t.titleJa,language);
+            return <li key={t.number}><span className="track-num">{t.number}</span><span className="track-titles"><span>{name}</span>{other && <span className="track-ja">{other}</span>}</span>{t.duration && <span className="track-dur">{t.duration}</span>}</li>;
+          })}</ol>
+        </div>)}</div>
+      </section>
+    </div>}
+  </dialog>;
 }
