@@ -15,9 +15,9 @@
   },
   {
     "id": "03",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "03_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3229.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
     "id": "06",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "06_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3230.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
     "id": "13",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "13_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3236.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -162,9 +162,9 @@
   },
   {
     "id": "24",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "24_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3238.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -225,16 +225,16 @@
   },
   {
     "id": "33",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "33_official_front.jpg",
+    "source": "https://columbia.jp/artist-info/harumi/discography/COKM-46459.html",
+    "status": "official",
     "checked": "2026-09-17"
   },
   {
     "id": "34",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "34_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3234.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -253,9 +253,9 @@
   },
   {
     "id": "37",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "37_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3234.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
@@ -267,16 +267,16 @@
   },
   {
     "id": "39",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "39_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3235.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {
     "id": "40",
-    "filename": "",
-    "source": "",
-    "status": "pending",
+    "filename": "40_reference_crop.jpg",
+    "source": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3235.jpg",
+    "status": "reference_photo",
     "checked": "2026-09-17"
   },
   {

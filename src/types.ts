@@ -20,6 +20,11 @@ export interface Album {
   genre: string;
   retailPriceJpy: string;
   notes: string;
+  summary: string;
+  summarySource: string;
+  summarySourceLabel: string;
+  artistInfoUrl: string;
+  artistInfoLabel: string;
   coverImage: string;
   discogsUrl: string;
   tracks: Track[];

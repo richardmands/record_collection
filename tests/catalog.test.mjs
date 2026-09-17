@@ -23,14 +23,24 @@ test('rejects duplicate track positions and orphan tracks',()=>{
  assert.throws(()=>buildCollection(albums,[...tracks,tracks[0]],root),/duplicate track/);
  assert.throws(()=>buildCollection(albums,[{...tracks[0],'Collection ID':'99'}],root),/unknown record/);
 });
-test('rejects photo fallbacks, unsafe paths and nonexistent artwork',()=>{
- let a=clone();a[0]['Cover Status']='photo_crop_fallback';assert.throws(()=>buildCollection(a,tracks,root),/only sourced online/);
+test('rejects unrecognised sources, unsafe paths and nonexistent artwork',()=>{
+ let a=clone();a[0]['Cover Status']='unattributed';assert.throws(()=>buildCollection(a,tracks,root),/recognised status and source/);
  a=clone();a[0]['Cover Image Filename']='../reference-photos/IMG_3229.jpg';assert.throws(()=>buildCollection(a,tracks,root),/unsafe cover/);
  a=clone();a[0]['Cover Image Filename']='missing.jpg';assert.throws(()=>buildCollection(a,tracks,root),/missing cover/);
 });
 test('requires source attribution and explicit verification issues',()=>{
- let a=clone();a[0]['Cover Source']='';assert.throws(()=>buildCollection(a,tracks,root),/only sourced online/);
+ let a=clone();a[0]['Cover Source']='';assert.throws(()=>buildCollection(a,tracks,root),/recognised status and source/);
  a=clone();a[0]['Verification Issues']='';assert.throws(()=>buildCollection(a,tracks,root),/explain what/);
+});
+test('reference covers retain original photos and album information has safe, labelled sources',()=>{
+ assert.equal(collection.albums.filter(a=>a.coverImage).length,collection.albumCount);
+ assert.equal(collection.albums.filter(a=>a.coverStatus==='reference_photo').length,8);
+ assert.ok(collection.albums.every(a=>a.summary && a.summarySource && a.summarySourceLabel));
+ let a=clone();a.find(a=>a['Cover Status']==='reference_photo')['Source Photo']='missing.jpg';
+ assert.throws(()=>buildCollection(a,tracks,root),/original source photo/);
+ a=clone();a[0]['Summary Source']='';assert.throws(()=>buildCollection(a,tracks,root),/summary requires/);
+ a=clone();a[0]['Artist Info URL']='javascript:alert(1)';assert.throws(()=>buildCollection(a,tracks,root),/HTTPS/);
+ a=clone();a[0]['Artist Info Label']='';assert.throws(()=>buildCollection(a,tracks,root),/labelled link/);
 });
 test('rejects malformed headings and retains zero-padded IDs',()=>{
  assert.throws(()=>rowsToObjects([['A','A'],['1','2']],'test'),/duplicate column/);

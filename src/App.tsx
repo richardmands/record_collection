@@ -23,6 +23,8 @@ function App() {
   const [albumId, setAlbumId] = useState<string | null>(selectedId);
   const returnFocus = useRef<HTMLElement | null>(null);
   const mainRef = useRef<HTMLElement>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const artistNavigation = useRef(false);
   const albums = useMemo(() => collection?.albums || [], [collection]);
 
   useEffect(() => {
@@ -43,6 +45,12 @@ function App() {
   }, [language, view]);
   const selected = albums.find((a) => a.id === albumId);
   const isOpen = !!selected;
+  useEffect(() => {
+    if (!isOpen && artistNavigation.current) {
+      artistNavigation.current = false;
+      headingRef.current?.focus();
+    }
+  }, [isOpen, filters.artist]);
   useEffect(() => {
     if (!isOpen) return;
     const previous = document.body.style.overflow;
@@ -77,6 +85,13 @@ function App() {
       setAlbumId(null);
     }
   }
+  function showArtist(album: Album) {
+    artistNavigation.current = true;
+    setQuery('');
+    setFilters({...emptyFilters, artist: album.artistEn || album.artistJa});
+    if (albumId) closeAlbum();
+    else if (filters.artist === (album.artistEn || album.artistJa)) headingRef.current?.focus();
+  }
   const filtered = useMemo(() => {
     const result = sortAlbums(albums.filter((a) =>
       matchesSearch(a, query) &&
@@ -85,7 +100,7 @@ function App() {
       (!filters.genre || genres(a).includes(filters.genre)) &&
       (!filters.label || a.label === filters.label) &&
       (!filters.format || a.format === filters.format) &&
-      (!filters.review || (filters.review === 'artwork' ? !a.coverImage : a.verificationIssues.length > 0))
+      (!filters.review || (filters.review === 'artwork' ? !a.coverImage : filters.review === 'reference' ? a.coverStatus === 'reference_photo' : a.verificationIssues.length > 0))
     ), sort);
     return descending ? result.reverse() : result;
   }, [albums, query, sort, filters, descending]);
@@ -110,7 +125,7 @@ function App() {
       <p className="site-tagline">A personal collection, one record at a time.</p>
     </div></header>
     <main className="site-main" ref={mainRef}>
-      <div className="collection-intro"><div><p className="eyebrow">THE RECORD SHELVES</p><h2>Find your next listen.</h2></div>
+      <div className="collection-intro"><div><p className="eyebrow">THE RECORD SHELVES</p><h2 ref={headingRef} tabIndex={-1}>{filters.artist || 'Find your next listen.'}</h2></div>
         <label className="control">Display language<select value={language} onChange={e => setLanguage(e.target.value as Language)}>
           <option value="en">English first</option><option value="ja">Japanese first</option>
         </select></label>
@@ -132,7 +147,7 @@ function App() {
             {options[key].map(option => <option key={option}>{option}</option>)}
           </select></label>)}
         <label className="control">Catalogue status<select value={filters.review} onChange={e => setFilters({...filters, review: e.target.value})}>
-          <option value="">All records</option><option value="verification">Needs verification</option><option value="artwork">Artwork pending</option>
+          <option value="">All records</option><option value="verification">Needs verification</option><option value="artwork">Artwork pending</option><option value="reference">Reference photo covers</option>
         </select></label>
       </div>
       <div className="results-bar">
@@ -146,18 +161,18 @@ function App() {
       {error && <div className="status status--error" role="alert">{error} <button onClick={() => location.reload()}>Retry</button></div>}
       {albumId && collection && !selected && <div className="status" role="alert">This record could not be found. <button onClick={closeAlbum}>Return to collection</button></div>}
       {collection && filtered.length === 0 && <div className="empty-state"><h2>No records found</h2><p>Try fewer words or clear your filters.</p><button className="control-button" onClick={clear}>Show all records</button></div>}
-      {view === 'grid' ? <div className="album-grid">{filtered.map(a => <AlbumCard key={a.id} album={a} language={language} onSelect={openAlbum} />)}</div> :
+      {view === 'grid' ? <div className="album-grid">{filtered.map(a => <AlbumCard key={a.id} album={a} language={language} onSelect={openAlbum} onArtistSelect={showArtist} />)}</div> :
         <div className="table-scroll"><table className="collection-table"><caption className="sr-only">Record collection</caption><thead><tr>
           <th scope="col">ID</th><th scope="col">Artist</th><th scope="col">Album</th><th scope="col">Year</th><th scope="col">Label</th><th scope="col">Catalogue</th><th scope="col">Shelf</th><th scope="col">Status</th>
         </tr></thead><tbody>{filtered.map(a => <tr key={a.id}>
-          <td>{a.id}</td><td>{displayText(a.artistEn,a.artistJa,language)[0]}</td>
+          <td>{a.id}</td><td><button className="artist-link" onClick={() => showArtist(a)} aria-label={`View all albums by ${displayText(a.artistEn,a.artistJa,language)[0]}`}>{displayText(a.artistEn,a.artistJa,language)[0]}</button></td>
           <td><button className="text-button" onClick={() => openAlbum(a)}>{displayText(a.titleEn,a.titleJa,language)[0]}</button></td>
           <td>{a.year || 'Unknown'}</td><td>{a.label || '—'}</td><td>{a.catalogNumber || 'Unknown'}</td><td>{a.shelfLocation || '—'}</td>
           <td>{a.verificationIssues.length ? <span className="badge">Needs verification</span> : a.verificationStatus}</td>
         </tr>)}</tbody></table></div>}
     </main>
     <footer className="site-footer"><p>Richard’s Records{collection?.updatedAt && <> · Last updated <time dateTime={collection.updatedAt}>{new Date(collection.updatedAt + 'T12:00:00Z').toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric'})}</time></>}</p></footer>
-    {selected && <AlbumDetail key={selected.id} album={selected} language={language} onClose={closeAlbum}
+    {selected && <AlbumDetail key={selected.id} album={selected} language={language} onClose={closeAlbum} onArtistSelect={showArtist}
       onPrevious={selectedIndex > 0 ? () => openAlbum(filtered[selectedIndex-1], true) : undefined}
       onNext={selectedIndex >= 0 && selectedIndex < filtered.length-1 ? () => openAlbum(filtered[selectedIndex+1], true) : undefined} />}
   </div>;

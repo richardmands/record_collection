@@ -1,10 +1,12 @@
 # Photo audit — 17 September 2026
 
-The eleven originals in ../reference-photos are identification references. They are not website artwork. Position mappings and corrections are in photo-audit-2026-09-17.json; the workbook contains the resulting record and research notes.
+The eleven originals in ../reference-photos are identification references. The owner subsequently authorised crops as artwork where clean matches remain unavailable. Position mappings and corrections are in photo-audit-2026-09-17.json; the workbook contains the resulting record and research notes.
 
 Artwork provenance is listed in artwork-sources.json and in the workbook. Existing Discogs images were compared with the supplied sleeves. Record 16 uses the same album design from an earlier edition; the owned C28A0146 pressing is separately identified and its year is unknown. Eight new online front-cover matches replace missing or incorrect artwork. The prior front image for record 05 was actually the back cover.
 
-Pending exact cover matches: 03, 06, 13, 24, 33, 34, 37, 39, 40. The site displays placeholders for these. Old crops and unmatched artwork are retained in archived-covers and never copied into the published site.
+The nine former placeholders now have artwork. Record 33 uses a clean matching cover from Columbia's official Osaka Shigure reissue page (original AX-7226, 1980-02-25). Records 03, 06, 13, 24, 34, 37, 39 and 40 use perspective-corrected reference crops, explicitly labelled in the site. Coordinates and extraction method are in cover-crops.json. Google Lens was tried for record 03 but no clean replacement was confirmed. Older unmatched artwork remains archived. The additional crop for 33 is retained but is not selected by the catalogue.
+
+album-information.json records the new descriptions and artist links. Official album notes and exact Discogs listings take priority; rare or unidentified sleeves get explicitly labelled collection notes. Album history is kept separate from pressing uncertainty and copy condition. The Various Artists sampler has no individual artist biography link while its performers remain unidentified.
 
 Significant corrections include Hibari Misora (not Harumi Miyako) for record 36 / AB-7001~2, Columbia (not Sony) for 41 / CL-22, and catalogue numbers on records 05, 12, 14, 16, 17, 20, 21, 23, 27, 33 and 39. Unknown or candidate numbers are not presented as confirmed facts. Shop stickers are not purchase records.
 

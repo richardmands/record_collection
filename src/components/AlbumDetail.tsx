@@ -3,8 +3,8 @@ import type { Album, Language } from '../types';
 import { CoverArt } from './CoverArt';
 import { coverUrl, displayText } from '../utils';
 
-export function AlbumDetail({ album, language, onClose, onPrevious, onNext }: {
-  album: Album; language: Language; onClose: () => void; onPrevious?: () => void; onNext?: () => void;
+export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onArtistSelect }: {
+  album: Album; language: Language; onClose: () => void; onPrevious?: () => void; onNext?: () => void; onArtistSelect: (album: Album) => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const [zoom, setZoom] = useState(false);
@@ -43,20 +43,21 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext }: {
     {zoom ? <section className="artwork-view">
       <h2 id="detail-title">{title}</h2>
       <img src={coverUrl(album.coverImage)!} alt={`${artist} — ${title} cover artwork`} />
-      <p>Source image at its available resolution.</p>
+      <p>{album.coverStatus === 'reference_photo' ? 'Cropped and straightened from your reference photo.' : 'Source image at its available resolution.'}</p>
       {album.coverSource && <a href={album.coverSource} target="_blank" rel="noreferrer">Artwork source ↗</a>}
     </section> : <div className="detail-content">
       <div className="detail-hero">
         <div>{album.coverImage ? <button className="cover-enlarge" onClick={() => setZoom(true)} aria-label="Enlarge cover artwork">
           <CoverArt album={album} size="detail" /><span>Enlarge artwork ↗</span>
         </button> : <CoverArt album={album} size="detail" />}
-        {album.coverSource && <a className="source-link" href={album.coverSource} target="_blank" rel="noreferrer">Artwork source ↗</a>}
+        {album.coverSource && <a className="source-link" href={album.coverSource} target="_blank" rel="noreferrer">{album.coverStatus === 'reference_photo' ? 'Your reference photo' : 'Artwork source'} ↗</a>}
         </div>
         <div className="detail-hero__text">
           <p className="detail-kicker">Record #{album.id}</p>
           <h2 id="detail-title" className="detail-title">{title}</h2>
           {subtitle && <p className="detail-title-ja" lang={language === 'en' ? 'ja' : 'en'}>{subtitle}</p>}
-          <p className="detail-artist">{artist}{otherArtist && <span className="detail-artist-ja"> / {otherArtist}</span>}</p>
+          <p className="detail-artist"><button className="artist-link" onClick={() => onArtistSelect(album)} aria-label={`View all albums by ${artist}`}>{artist}{otherArtist && <span className="detail-artist-ja"> / {otherArtist}</span>}</button></p>
+          {album.artistInfoUrl && <a className="source-link" href={album.artistInfoUrl} target="_blank" rel="noreferrer">Artist information · {album.artistInfoLabel} ↗</a>}
           <dl className="detail-facts">{facts.map(([name,value]) => <div key={name}><dt>{name}</dt><dd>{value || 'Not confirmed'}</dd></div>)}</dl>
           <div className="detail-links">
             {album.discogsUrl && <a href={album.discogsUrl} target="_blank" rel="noreferrer">{album.discogsUrl.includes('/release/') ? 'View release on Discogs' : 'Search Discogs'} ↗</a>}
@@ -64,10 +65,11 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext }: {
           </div>
         </div>
       </div>
+      {album.summary && <section className="detail-notes"><h3>About this album</h3><p>{album.summary}</p><a className="source-link" href={album.summarySource} target="_blank" rel="noreferrer">{album.summarySourceLabel} ↗</a></section>}
       {album.verificationIssues.length > 0 && <section className="verification"><h3>Needs verification</h3>
         <ul>{album.verificationIssues.map(issue => <li key={issue}>{issue}</li>)}</ul>
       </section>}
-      {album.notes && <section className="detail-notes"><h3>About this record</h3><p>{album.notes}</p></section>}
+      {album.notes && <section className="detail-notes"><h3>Sleeve notes</h3><p>{album.notes}</p></section>}
       <section className="detail-notes"><h3>My copy</h3><dl className="detail-facts">{copyFacts.map(([name,value]) => <div key={name}><dt>{name}</dt><dd>{value || 'Not recorded'}</dd></div>)}</dl></section>
       {album.researchNotes && <details className="research-notes"><summary>Identification and research notes</summary><p>{album.researchNotes}</p></details>}
       <section className="detail-tracks"><h3>Track listing</h3>
