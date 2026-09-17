@@ -22,25 +22,27 @@ export function parseYear(year: string | undefined): number | null {
 
 export function sortAlbums(albums: Album[], key: SortKey): Album[] {
   const copy = [...albums];
+  const byYear = (a: Album, b: Album) => {
+    const ya = parseYear(a.year);
+    const yb = parseYear(b.year);
+    if (ya === null && yb === null) return a.id.localeCompare(b.id);
+    if (ya === null) return 1;
+    if (yb === null) return -1;
+    return ya - yb || a.id.localeCompare(b.id);
+  };
   copy.sort((a, b) => {
     if (key === 'year') {
-      const ya = parseYear(a.year);
-      const yb = parseYear(b.year);
-      if (ya === null && yb === null) return a.id.localeCompare(b.id);
-      if (ya === null) return 1;
-      if (yb === null) return -1;
-      if (ya !== yb) return ya - yb;
-      return a.id.localeCompare(b.id);
+      return byYear(a, b);
     }
     if (key === 'artistEn') {
       const cmp = (a.artistEn || '').localeCompare(b.artistEn || '', 'en', {
         sensitivity: 'base',
       });
-      return cmp || a.id.localeCompare(b.id);
+      return cmp || byYear(a, b);
     }
     if (key === 'artistJa') {
       const cmp = (a.artistJa || '').localeCompare(b.artistJa || '', 'ja');
-      return cmp || a.id.localeCompare(b.id);
+      return cmp || byYear(a, b);
     }
     const ta = a.titleEn || a.titleJa || '';
     const tb = b.titleEn || b.titleJa || '';
