@@ -1,54 +1,3927 @@
 {
+  "version": 1,
+  "albumCount": 41,
   "albums": [
     {
-      "id": 14,
-      "artist": "Misae Enomoto",
-      "artistJa": "榎本美佐江",
-      "title": "Meikyokushu",
-      "titleJa": "名曲集",
-      "cover": "14_enomoto_meikyoku.jpg",
-      "label": "JV",
-      "catalog": "SJX-150"
+      "id": "01",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "都はるみの流し唄",
+      "titleEn": "Miyako Harumi no Nagashiuta (Flowing Songs)",
+      "label": "Columbia (Nippon Columbia)",
+      "catalogNumber": "ALS-4183 (sticker 26-0424-069)",
+      "year": "1966",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka / Kayōkyoku",
+      "retailPriceJpy": "¥1,500 (obi; later sticker series)",
+      "notes": "Classic red-background / white-pink kimono cover. Blue obi. Barcode sticker 26-0424-069. Original ALS-4183 Sep 1966 (¥1500). Separate from #06.",
+      "coverImage": "01_miyako_nagashiuta.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=Harumi+Miyako+ALS-4183",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "名月赤城山",
+          "titleEn": "Meigetsu Akagiyama",
+          "duration": "4:30"
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "流転",
+          "titleEn": "Ruten",
+          "duration": "3:29"
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "妻恋道中",
+          "titleEn": "Tsumakoi Dōchū",
+          "duration": "3:31"
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "むらさき小唄",
+          "titleEn": "Murasaki Kouta",
+          "duration": "4:04"
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "いろは仁義",
+          "titleEn": "Iroha Jingi",
+          "duration": "2:40"
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "旅笠道中",
+          "titleEn": "Tabigasa Dōchū",
+          "duration": "3:39"
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "赤城の子守唄",
+          "titleEn": "Akagi no Komoriuta",
+          "duration": "4:14"
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "おしどり道中",
+          "titleEn": "Oshidori Dōchū",
+          "duration": "4:06"
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "裏町人生",
+          "titleEn": "Uramachi Jinsei",
+          "duration": "3:16"
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "名月佐太郎笠",
+          "titleEn": "Meigetsu Satarōgasa",
+          "duration": "2:55"
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "野崎小唄",
+          "titleEn": "Nozaki Kouta",
+          "duration": "3:04"
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "赤城しぐれ",
+          "titleEn": "Akagi Shigure",
+          "duration": "3:04"
+        }
+      ]
     },
     {
-      "id": 21,
-      "artist": "Harumi Kaneko",
-      "artistJa": "金子晴美",
-      "title": "I Love New York",
-      "titleJa": "アイ・ラヴ・ニューヨーク",
-      "cover": "21_kaneko_i_love_ny.jpg",
-      "label": "Philips",
-      "catalog": "FS-7032"
+      "id": "02",
+      "artistJa": "西川峰子",
+      "artistEn": "Mineko Nishikawa",
+      "titleJa": "ふたりの秘密",
+      "titleEn": "Futari no Himitsu (Two Secrets)",
+      "label": "Victor",
+      "catalogNumber": "SJX-210",
+      "year": "1975",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Enka",
+      "retailPriceJpy": "¥2,000",
+      "notes": "Red Victor obi with Nipper logo; full 12-track listing on obi.",
+      "coverImage": "02_nishikawa_futari.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=西川峰子+SJX-210",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "ふたりの秘密",
+          "titleEn": "Futari no Himitsu",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "十六の恋",
+          "titleEn": "Jūroku no Koi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "さよなら好きなひと",
+          "titleEn": "Sayonara Suki na Hito",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "恋日記",
+          "titleEn": "Koi Nikki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "恋化粧",
+          "titleEn": "Koi Keshō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "峰子の子守唄",
+          "titleEn": "Mineko no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "下町育ち",
+          "titleEn": "Shitamachi Sodachi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "初恋峠",
+          "titleEn": "Hatsukoi Tōge",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "北風の朝",
+          "titleEn": "Kitakaze no Asa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "旅愁",
+          "titleEn": "Ryoshū",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "別れのホーム",
+          "titleEn": "Wakare no Hōmu",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "ふるさと恋唄",
+          "titleEn": "Furusato Koiuta",
+          "duration": ""
+        }
+      ]
     },
     {
-      "id": 27,
-      "artist": "Sumiko Yamagata",
-      "artistJa": "やまがたすみこ",
-      "title": "Kaze, Sora",
-      "titleJa": "風・空・そして愛",
-      "cover": "27_yamagata_kaze_sora.jpg",
-      "label": null,
-      "catalog": null
+      "id": "03",
+      "artistJa": "倍賞千恵子",
+      "artistEn": "Chieko Baisho",
+      "titleJa": "さくらの歌 / さくら貝の歌 — 倍賞千恵子の日本の詩",
+      "titleEn": "Sakura no Uta / Sakuragai no Uta — Chieko Baisho's Songs of Japan",
+      "label": "King Records",
+      "catalogNumber": "SKK-680 (reissue SKA-217 also known)",
+      "year": "1971",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Japanese lyric songs (抒情歌)",
+      "retailPriceJpy": "¥1,800 (printed on jacket)",
+      "notes": "CORRECTED ID: not 石川さゆり. Cover brands「さくらの歌」; Discogs/FanFan list as「さくら貝の歌 倍賞千恵子の日本の詩」SKK-680 (1971 gatefold). No obi on this copy. Photo credit: Shinsuke Ame.",
+      "coverImage": "03_baisho_sakura.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=倍賞千恵子+SKK-680",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "さくら貝の歌",
+          "titleEn": "Sakuragai no Uta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "かあさんの歌",
+          "titleEn": "Kāsan no Uta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "ちいさい秋みつけた",
+          "titleEn": "Chiisai Aki Mitsuketa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "忘れな草をあなたに",
+          "titleEn": "Wasurenagusa o Anata ni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "雪の降る町を",
+          "titleEn": "Yuki no Furu Machi o",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "浜辺の歌",
+          "titleEn": "Hamabe no Uta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "赤とんぼ",
+          "titleEn": "Aka Tonbo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "あざみの歌",
+          "titleEn": "Azami no Uta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "花の街",
+          "titleEn": "Hana no Machi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "夏の思い出",
+          "titleEn": "Natsu no Omoide",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "心の窓に灯を",
+          "titleEn": "Kokoro no Mado ni Hi o",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "島原地方の子守唄",
+          "titleEn": "Shimabara Chihō no Komoriuta",
+          "duration": ""
+        }
+      ]
     },
     {
-      "id": 29,
-      "artist": "Sachiko Nishida",
-      "artistJa": "西田佐知子",
-      "title": "Jogashima no Ame",
-      "titleJa": "城ヶ島の雨",
-      "cover": "29_nishida_jogashima.jpg",
+      "id": "04",
+      "artistJa": "藤圭子",
+      "artistEn": "Keiko Fuji",
+      "titleJa": "別れの旅",
+      "titleEn": "Wakare no Tabi (Journey of Farewell)",
+      "label": "RCA",
+      "catalogNumber": "JRS-7194",
+      "year": "1972",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka / Kayōkyoku",
+      "retailPriceJpy": "¥1,800",
+      "notes": "Released 1972-06-25. White/red RCA obi. Track order per fan discography (A6=京都から博多まで).",
+      "coverImage": "04_fuji_wakare.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=藤圭子+JRS-7194",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "別れの旅",
+          "titleEn": "Wakare no Tabi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "さいはての町",
+          "titleEn": "Saihate no Machi",
+          "duration": "3:00"
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "恋無情",
+          "titleEn": "Koi Mujō",
+          "duration": "3:38"
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "こわれ人形の詩",
+          "titleEn": "Koware Ningyō no Uta",
+          "duration": "4:12"
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "面影",
+          "titleEn": "Omokage",
+          "duration": "3:13"
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "京都から博多まで",
+          "titleEn": "Kyōto kara Hakata made",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "花のブルース",
+          "titleEn": "Hana no Blues",
+          "duration": "3:37"
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "ネオン花哀歌",
+          "titleEn": "Neonbana Aika",
+          "duration": "3:52"
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "東京の片隅で",
+          "titleEn": "Tōkyō no Katasumi de",
+          "duration": "3:06"
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "哀別",
+          "titleEn": "Aibetsu",
+          "duration": "3:22"
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "命",
+          "titleEn": "Inochi",
+          "duration": "3:38"
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "良太の子守唄",
+          "titleEn": "Ryōta no Komoriuta",
+          "duration": "3:14"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "artistJa": "本田路津子",
+      "artistEn": "Rutsuko Honda",
+      "titleJa": "家路 / GOING HOME",
+      "titleEn": "Ieji / Going Home",
+      "label": "CBS/Sony",
+      "catalogNumber": "SONP-30230 (cf. original SOND-66060)",
+      "year": "1971",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / College Folk",
+      "retailPriceJpy": "¥1,800",
+      "notes": "Obi shows SONP-30230; Wikipedia lists original as SOND-66060 (1971-08). Tracklist from that album edition. Pink/red CBS/Sony obi.",
+      "coverImage": "05_honda_going_home.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=本田路津子+家路",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "ある朝うまれて",
+          "titleEn": "Aru Asa Umarete",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "ままごとの世界",
+          "titleEn": "Mamagoto no Sekai",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "春が来ると",
+          "titleEn": "Haru ga Kuru to",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "希望の国",
+          "titleEn": "Kibō no Kuni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "孤独な少女",
+          "titleEn": "Kodoku na Shōjo",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "陽は昇る",
+          "titleEn": "Hi wa Noboru",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "家路",
+          "titleEn": "Ieji",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "恋する瞬間",
+          "titleEn": "Koisuru Shunkan",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "どうしているの",
+          "titleEn": "Dōshite Iru no",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "あの想い出の道",
+          "titleEn": "Ano Omoide no Michi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "一年たちました",
+          "titleEn": "Ichinen Tachimashita",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "出発のある人生",
+          "titleEn": "Shuppatsu no Aru Jinsei",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "都はるみの流し唄 / 魅力のすべて",
+      "titleEn": "Nagashiuta / Miryoku no Subete (All Her Charms) — alt. pressing",
+      "label": "Columbia",
+      "catalogNumber": "sticker 26-0212-047 (catalog on jacket not fully confirmed)",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka / Kayōkyoku",
+      "retailPriceJpy": "¥2,400 (sticker/obi)",
+      "notes": "DIFFERENT from #01: red kimono close-up cover, red obi, ¥2400. Branded 流し唄 with 魅力のすべて. Full Discogs match uncertain; tracklist only partially visible on obi — DO NOT invent. Treat as separate collection entry.",
+      "coverImage": "06_miyako_nagashiuta_alt.jpg",
+      "discogsUrl": "",
+      "tracks": [
+        {
+          "side": "?",
+          "number": "1",
+          "titleJa": "涙の連絡船 (obi)",
+          "titleEn": "Namida no Renrakusen (seen on obi)",
+          "duration": "UNVERIFIED side"
+        },
+        {
+          "side": "?",
+          "number": "2",
+          "titleJa": "アンコ椿は恋の花 (obi)",
+          "titleEn": "Anko Tsubaki wa Koi no Hana (seen on obi)",
+          "duration": "UNVERIFIED side"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "ベスト・アルバム",
+      "titleEn": "Best Album",
+      "label": "Columbia",
+      "catalogNumber": "AX-7293 (sticker 25-0606-036)",
+      "year": "1980",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "¥2,500",
+      "notes": "Purple/white BEST ALBUM obi. Soft-focus smiling portrait. Tracklist from omimi.biz AX7293 listing.",
+      "coverImage": "07_miyako_best_album_ax7293.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=都はるみ+AX-7293",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "大阪しぐれ",
+          "titleEn": "Ōsaka Shigure",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "北の宿から",
+          "titleEn": "Kita no Yado kara",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "さよなら海峡",
+          "titleEn": "Sayonara Kaikyō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "港町",
+          "titleEn": "Minatomachi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "おんなの海峡",
+          "titleEn": "Onna no Kaikyō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "白樺に涙あり",
+          "titleEn": "Shirakaba ni Namida Ari",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "涙の連絡船",
+          "titleEn": "Namida no Renrakusen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "好きになった人",
+          "titleEn": "Suki ni Natta Hito",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "惚れちゃったんだョ",
+          "titleEn": "Horechatta n da yo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "はるみの三度笠",
+          "titleEn": "Harumi no Sandogasa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "さよなら列車",
+          "titleEn": "Sayonara Ressha",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "馬鹿っちょ出船",
+          "titleEn": "Bakatcho Desen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "さすらい小鳩",
+          "titleEn": "Sasurai Kobato",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "アンコ椿は恋の花",
+          "titleEn": "Anko Tsubaki wa Koi no Hana",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "都はるみ・ベスト16",
+      "titleEn": "Harumi Miyako Best 16",
+      "label": "Columbia",
+      "catalogNumber": "AX-7092 (sticker 26-0421-067; cover may read AA/AX)",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "¥2,500",
+      "notes": "Yellow floral kimono / teal background. Orange obi. FanFan lists AX-7092. Year not confirmed on reliable source — left unknown. 16 tracks.",
+      "coverImage": "08_miyako_best16.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=都はるみ+AX-7092",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "海鳴りの詩",
+          "titleEn": "Uminari no Uta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "北の宿から",
+          "titleEn": "Kita no Yado kara",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "ただひとり",
+          "titleEn": "Tada Hitori",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "雨やどり",
+          "titleEn": "Amayadori",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "おぼろ月夜",
+          "titleEn": "Oborozukiyo",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "ふるさとが泣いた",
+          "titleEn": "Furusato ga Naita",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "白樺に涙あり",
+          "titleEn": "Shirakaba ni Namida Ari",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "8",
+          "titleJa": "ゆうがおの丘",
+          "titleEn": "Yūgao no Oka",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "涙の連絡船",
+          "titleEn": "Namida no Renrakusen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "好きになった人",
+          "titleEn": "Suki ni Natta Hito",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "おんなの海峡",
+          "titleEn": "Onna no Kaikyō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "アンコ椿は恋の花",
+          "titleEn": "Anko Tsubaki wa Koi no Hana",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "港町",
+          "titleEn": "Minatomachi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "惚れちゃったんだよ",
+          "titleEn": "Horechatta n da yo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "初恋の川",
+          "titleEn": "Hatsukoi no Kawa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "8",
+          "titleJa": "さよなら列車",
+          "titleEn": "Sayonara Ressha",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "artistJa": "加藤登紀子",
+      "artistEn": "Tokiko Kato",
+      "titleJa": "ダブル・デラックス・アルバム",
+      "titleEn": "Double Deluxe Album",
       "label": "Polydor",
-      "catalog": null
+      "catalogNumber": "MR 9070/1",
+      "year": "1970",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Folk / World & Country",
+      "retailPriceJpy": "¥2,500",
+      "notes": "Red Polydor obi. 24 tracks across 4 sides.",
+      "coverImage": "09_kato_double_deluxe.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=加藤登紀子+MR+9070",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "ひとり寝の子守唄",
+          "titleEn": "Hitorine no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "ギターをひこう",
+          "titleEn": "Gitā o Hikō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "希望",
+          "titleEn": "Kibō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "真夜中の電話",
+          "titleEn": "Mayonaka no Denwa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "戦争は知らない",
+          "titleEn": "Sensō wa Shiranai",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "ゲバラ・アーミオ",
+          "titleEn": "Guevara Armio",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "別れの数え唄",
+          "titleEn": "Wakare no Kazoeuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "小さな花びらの思い出",
+          "titleEn": "Chiisana Hanabira no Omoide",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "白いブランコ",
+          "titleEn": "Shiroi Buranko",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "枯木の上に",
+          "titleEn": "Kareki no Ue ni",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "愛する人に歌わせないで",
+          "titleEn": "Aisuru Hito ni Utawasenai de",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "とっても長い道",
+          "titleEn": "Tottemo Nagai Michi",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "1",
+          "titleJa": "赤い風船",
+          "titleEn": "Akai Fūsen",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "2",
+          "titleJa": "あじさい色の雨",
+          "titleEn": "Ajisai-iro no Ame",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "3",
+          "titleJa": "風",
+          "titleEn": "Kaze",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "4",
+          "titleJa": "虹をさがそう",
+          "titleEn": "Niji o Sagasō",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "5",
+          "titleJa": "時には母のない子のように",
+          "titleEn": "Toki ni wa Haha no Nai Ko no Yō ni",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "6",
+          "titleJa": "朝の食事",
+          "titleEn": "Asa no Shokuji",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "1",
+          "titleJa": "帰りたい帰れない",
+          "titleEn": "Kaeritai Kaerenai",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "2",
+          "titleJa": "まごころ",
+          "titleEn": "Magokoro",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "3",
+          "titleJa": "牢獄の炎",
+          "titleEn": "Rōgoku no Honō",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "4",
+          "titleJa": "坊や大きくならないで",
+          "titleEn": "Bōya Ōkiku Naranai de",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "5",
+          "titleJa": "レニングラードの不良少年",
+          "titleEn": "Leningrad no Furyō Shōnen",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "6",
+          "titleJa": "さようなら",
+          "titleEn": "Sayōnara",
+          "duration": ""
+        }
+      ]
     },
     {
-      "id": 30,
-      "artist": "Sachiko Kobayashi",
+      "id": "10",
+      "artistJa": "石毛恭子",
+      "artistEn": "Kyoko Ishige",
+      "titleJa": "石毛恭子がうたう 母と子供のうた ベストアルバム Vol.2",
+      "titleEn": "Mother & Child Songs Best Album Vol.2",
+      "label": "Columbia",
+      "catalogNumber": "CW-7044",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Children's / Kayōkyoku",
+      "retailPriceJpy": "unknown",
+      "notes": "CORRECTED: Columbia CW-7044 (not Victor SJX-1044). Photo credit Naeba Prince Hotel / ©Fuji Production. Full tracklist not verified from Discogs — left incomplete.",
+      "coverImage": "10_ishige_haha_kodomo.jpg",
+      "discogsUrl": "",
+      "tracks": []
+    },
+    {
+      "id": "11",
+      "artistJa": "本田路津子",
+      "artistEn": "Rutsuko Honda",
+      "titleJa": "ギフト・パック・シリーズ",
+      "titleEn": "Gift Pack Series",
+      "label": "CBS/Sony",
+      "catalogNumber": "SOLL-42 (cf. FanFan SOLL-16 same series title)",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk",
+      "retailPriceJpy": "¥2,000",
+      "notes": "Yellow Gift Pack Series obi; circular portrait cover. Jacket/obi show SOLL-42. Closest published tracklist is SOLL-16 Gift Pack — used provisionally; verify against disc/insert.",
+      "coverImage": "11_honda_gift_pack.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=本田路津子+Gift+Pack",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "秋でもないのに",
+          "titleEn": "Aki demo nai noni",
+          "duration": "PROVISIONAL—from SOLL-16"
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "風がはこぶもの",
+          "titleEn": "Kaze ga Hakobu mono",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "家路",
+          "titleEn": "Ieji",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "一人の手",
+          "titleEn": "Hitori no Te",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "だれかを愛したい",
+          "titleEn": "Dareka o Aishitai",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "耳をすましてごらん",
+          "titleEn": "Mimi o Sumashite Goran",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "誰もいない海",
+          "titleEn": "Dare mo Inai Umi",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "出発のある人生",
+          "titleEn": "Shuppatsu no Aru Jinsei",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "今日の日はさようなら",
+          "titleEn": "Kyō no Hi wa Sayōnara",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "愛するハーモニー",
+          "titleEn": "Aisuru Harmony",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "サルビアの花",
+          "titleEn": "Sarubia no Hana",
+          "duration": "PROVISIONAL"
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "さよならをするために",
+          "titleEn": "Sayonara o Suru Tame ni",
+          "duration": "PROVISIONAL"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "artistJa": "本田路津子",
+      "artistEn": "Rutsuko Honda",
+      "titleJa": "秋でもないのに / Honda Sings Evergreen Folk Hits",
+      "titleEn": "Aki demo nai noni / Honda Sings Evergreen Folk Hits",
+      "label": "CBS/Sony",
+      "catalogNumber": "SONL-56010 (cf. original SOND-66050)",
+      "year": "1971",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk",
+      "retailPriceJpy": "¥1,800",
+      "notes": "Red obi SONL-56010. Content matches debut LP『秋でもないのに』SOND-66050 (1971-04). Tracklist from Wikipedia discography.",
+      "coverImage": "12_honda_evergreen.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=本田路津子+秋でもないのに",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "秋でもないのに",
+          "titleEn": "Aki demo nai noni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "一人の手",
+          "titleEn": "Hitori no Te",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "野に咲く花",
+          "titleEn": "No ni Saku Hana",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "小さな丘の小さな家",
+          "titleEn": "Chiisana Oka no Chiisana Ie",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "死んだ少女",
+          "titleEn": "Shinda Shōjo",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "風がはこぶもの",
+          "titleEn": "Kaze ga Hakobu mono",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "誰もいない海",
+          "titleEn": "Dare mo Inai Umi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "遠い世界に",
+          "titleEn": "Tōi Sekai ni",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "白い色は恋人の色",
+          "titleEn": "Shiroi Iro wa Koibito no Iro",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "おはなし",
+          "titleEn": "Ohanashi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "小さな日記",
+          "titleEn": "Chiisana Nikki",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "今日の日はさようなら",
+          "titleEn": "Kyō no Hi wa Sayōnara",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "artistJa": "宮城道雄（作品）／演奏：宮城喜代子・宮城数江・伊藤京子 他",
+      "artistEn": "Michio Miyagi (compositions) / perf. Kiyoko Miyagi, Kazue Miyagi, Kyoko Ito et al.",
+      "titleJa": "箏 名曲の調べ〈3〉／宮城道雄作品集",
+      "titleEn": "Koto Masterpieces Vol. 3 / Michio Miyagi Works",
+      "label": "Victor",
+      "catalogNumber": "SJL-2080",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Traditional / Koto (Ikuta-ryū)",
+      "retailPriceJpy": "unknown",
+      "notes": "Jacket clearly prints SJL-2080 (not SJ-3008-3). Performers on jacket: 宮城喜代子(箏), 宮城数江(唄・箏), 伊藤京子(唄)他. 'KOTO music' branding. Pieces listed on front.",
+      "coverImage": "13_miyagi_koto_vol3.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=宮城道雄+SJL-2080",
+      "tracks": [
+        {
+          "side": "?",
+          "number": "1",
+          "titleJa": "春の海",
+          "titleEn": "Haru no Umi",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "2",
+          "titleJa": "比良",
+          "titleEn": "Hira",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "3",
+          "titleJa": "瀬音",
+          "titleEn": "Seoto",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "4",
+          "titleJa": "都踊",
+          "titleEn": "Miyako Odori",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "5",
+          "titleJa": "コスモス",
+          "titleEn": "Cosmos",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "6",
+          "titleJa": "せきれい",
+          "titleEn": "Sekirei",
+          "duration": "side assignment unverified"
+        },
+        {
+          "side": "?",
+          "number": "7",
+          "titleJa": "紅薔薇",
+          "titleEn": "Benibara",
+          "duration": "side assignment unverified"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "artistJa": "榎本美佐江",
+      "artistEn": "Misae Enomoto",
+      "titleJa": "榎本美佐江 名曲集",
+      "titleEn": "Misae Enomoto Masterpieces / Famous Songs",
+      "label": "Victor",
+      "catalogNumber": "SJ-2022 (related Discogs pressings SJX-150)",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "Victor SJ-2022 on jacket per photo. Tracklist matches well-known『名曲集』also issued as SJX-150 / Nivico. CD reissue VICL-63064 (2008) same 12 songs.",
+      "coverImage": "14_enomoto_meikyoku.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=榎本美佐江+名曲集",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "二十三夜",
+          "titleEn": "Nijūsan'ya",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "後追い三味線",
+          "titleEn": "Atooi Shamisen",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "十三夜",
+          "titleEn": "Jūsanya",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "お別れさのさ",
+          "titleEn": "Owakare Sanosa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "三味線一代",
+          "titleEn": "Shamisen Ichidai",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "お俊恋唄",
+          "titleEn": "Otoshi Koiuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "明治一代女",
+          "titleEn": "Meiji Ichidai Onna",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "すみだ川",
+          "titleEn": "Sumidagawa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "湯島の白梅",
+          "titleEn": "Yushima no Shiraume",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "野崎小唄",
+          "titleEn": "Nozaki Kouta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "祇園小唄",
+          "titleEn": "Gion Kouta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "天龍下れば",
+          "titleEn": "Tenryū Kudareba",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "artistJa": "赤い鳥",
+      "artistEn": "The Red Birds (Akai Tori)",
+      "titleJa": "What a Beautiful World",
+      "titleEn": "What a Beautiful World",
+      "label": "Liberty (Toshiba Musical Industries)",
+      "catalogNumber": "LTP-9017",
+      "year": "1971",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / Pop",
+      "retailPriceJpy": "unknown",
+      "notes": "English-language folk album. Manufactured by Toshiba; licensed from Liberty; produced for Alfa Music. Recorded at AIR Studios / Toshiba Studios.",
+      "coverImage": "15_red_birds_beautiful_world.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=Red+Birds+What+a+Beautiful+World+LTP-9017",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "What a Beautiful World",
+          "titleEn": "What a Beautiful World",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "Love Him",
+          "titleEn": "Love Him",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "I'm Gonna Make It Happen",
+          "titleEn": "I'm Gonna Make It Happen",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "Maybe It Could Be Me",
+          "titleEn": "Maybe It Could Be Me",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "Movin' On",
+          "titleEn": "Movin' On",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "Travelin' Easy",
+          "titleEn": "Travelin' Easy",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "Mariposa",
+          "titleEn": "Mariposa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "Sweet Morning Rain",
+          "titleEn": "Sweet Morning Rain",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "Sunny Smile of Love",
+          "titleEn": "Sunny Smile of Love",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "Rainy Day",
+          "titleEn": "Rainy Day",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "Wheel of Love",
+          "titleEn": "Wheel of Love",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "Fly",
+          "titleEn": "Fly",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "artistJa": "中島みゆき",
+      "artistEn": "Miyuki Nakajima",
+      "titleJa": "愛していると云ってくれ",
+      "titleEn": "Aishiteru to Ittekure (Tell Me You Love Me)",
+      "label": "Aard-Vark / Canyon",
+      "catalogNumber": "C25A0007 (orig. VX-9002, 1978-04-10)",
+      "year": "1978 (this pressing: later Canyon C25A reissue)",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / New Music",
+      "retailPriceJpy": "unknown on this copy",
+      "notes": "Black cover with inset photo. Catalog on jacket C25A0007 (Canyon repress series). Original LP VX-9002 ¥2500 (1978). 9 tracks.",
+      "coverImage": "16_nakajima_aishiteru.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=中島みゆき+愛していると云ってくれ",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "「元気ですか」",
+          "titleEn": "Genki desu ka",
+          "duration": "2:58"
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "怜子",
+          "titleEn": "Reiko",
+          "duration": "2:40"
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "わかれうた",
+          "titleEn": "Wakareuta",
+          "duration": "3:57"
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "海鳴り",
+          "titleEn": "Uminari",
+          "duration": "3:27"
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "化粧",
+          "titleEn": "Keshō",
+          "duration": "5:07"
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "ミルク32",
+          "titleEn": "Milk 32",
+          "duration": "4:33"
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "あほう鳥",
+          "titleEn": "Ahōdori",
+          "duration": "4:06"
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "おまえの家",
+          "titleEn": "Omae no Ie",
+          "duration": "6:32"
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "世情",
+          "titleEn": "Sejō",
+          "duration": "6:12"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "artistJa": "イルカ",
+      "artistEn": "Iruka",
+      "titleJa": "JULIA",
+      "titleEn": "JULIA",
+      "label": "PANAM (Crown)",
+      "catalogNumber": "GWP-1015 (also associated GW-4034)",
+      "year": "1982",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / Pop",
+      "retailPriceJpy": "¥2,800",
+      "notes": "Black PANAM obi lists GWP-1015 ¥2800. Released 1982-06-25. Recorded in LA (Sunset Sound).",
+      "coverImage": "17_iruka_julia.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=Iruka+JULIA+GWP-1015",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "Julia",
+          "titleEn": "Julia",
+          "duration": "2:48"
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "愛の飛行士",
+          "titleEn": "Ai no Hikōshi",
+          "duration": "4:30"
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "蒼ざめた空白",
+          "titleEn": "Aozameta Kūhaku",
+          "duration": "5:29"
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "吟遊詩人（マイスタージンガー）",
+          "titleEn": "Gin'yūshijin (Meistersinger)",
+          "duration": "4:45"
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "横浜スタジアム",
+          "titleEn": "Yokohama Stadium",
+          "duration": "3:29"
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "かわいい君に",
+          "titleEn": "Kawaii Kimi ni",
+          "duration": "4:18"
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "うかれ猫",
+          "titleEn": "Ukare Neko",
+          "duration": "3:29"
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "僕のラストソング",
+          "titleEn": "Boku no Last Song",
+          "duration": "2:44"
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "グッドオールドデイズ",
+          "titleEn": "Good Old Days",
+          "duration": "4:38"
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "たそがれホテル〜ヘミングウェイ夫人の面影によせて〜",
+          "titleEn": "Tasogare Hotel",
+          "duration": "4:35"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "artistJa": "ウィッシュ",
+      "artistEn": "Wish",
+      "titleJa": "WISHは愛 / 六月の子守唄",
+      "titleEn": "Wish wa Ai / Rokugatsu no Komoriuta",
+      "label": "Elektra (Warner-Pioneer)",
+      "catalogNumber": "L-8037E",
+      "year": "1974",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / Soft Rock",
+      "retailPriceJpy": "¥2,200",
+      "notes": "White Elektra obi. Arranged association with Tetsuji Hayashi / Mitsuo Hagita noted in secondary sources.",
+      "coverImage": "18_wish_rokugatsu.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=ウィッシュ+L-8037E",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "風車",
+          "titleEn": "Kazaguruma",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "私が昔好きだった人",
+          "titleEn": "Watashi ga Mukashi Suki datta Hito",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "曲がり角を曲がると",
+          "titleEn": "Magarikado o Magaru to",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "てがみ",
+          "titleEn": "Tegami",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "ばいばい",
+          "titleEn": "Bye Bye",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "12月の詩",
+          "titleEn": "Jūnigatsu no Uta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "美しい季節に",
+          "titleEn": "Utsukushii Kisetsu ni",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "めぐり逢い",
+          "titleEn": "Meguriai",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "雨の日のポエム",
+          "titleEn": "Ame no Hi no Poem",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "始発列車で",
+          "titleEn": "Shihatsu Ressha de",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "今は悲しいけれど",
+          "titleEn": "Ima wa Kanashii keredo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "六月の子守唄",
+          "titleEn": "Rokugatsu no Komoriuta",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "artistJa": "川島康子",
+      "artistEn": "Yasuko Kawashima",
+      "titleJa": "海の見える部屋",
+      "titleEn": "Umi no Mieru Heya (A Room with a Sea View)",
+      "label": "Bauhaus (obi may read Blackhouse-style branding)",
+      "catalogNumber": "K28A-391",
+      "year": "1983",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "New Music / Kayōkyoku",
+      "retailPriceJpy": "unknown",
+      "notes": "Yellow obi. Auction/listings: Bauhaus K28A-391 (1983). Tracklist from secondary blog/auction sources.",
+      "coverImage": "19_kawashima_umi.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=川島康子+海の見える部屋",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "私はいま",
+          "titleEn": "Watashi wa Ima",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "冬のまぼろし",
+          "titleEn": "Fuyu no Maboroshi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "つぶやき",
+          "titleEn": "Tsubuyaki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "真実を言えば",
+          "titleEn": "Shinjitsu o Ieba",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "お・は・よ・う",
+          "titleEn": "O-ha-yo-u",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "シャボン玉",
+          "titleEn": "Shabondama",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "心よ",
+          "titleEn": "Kokoro yo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "血のいろの月",
+          "titleEn": "Chi no Iro no Tsuki",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "ルームミラー",
+          "titleEn": "Room Mirror",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "海の見える部屋",
+          "titleEn": "Umi no Mieru Heya",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "artistJa": "島倉千代子",
+      "artistEn": "Chiyoko Shimakura",
+      "titleJa": "愛唱集",
+      "titleEn": "Aishōshū (Favorite Songs / Songbook)",
+      "label": "Columbia",
+      "catalogNumber": "ALS-4027",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka / Kayōkyoku",
+      "retailPriceJpy": "unknown",
+      "notes": "Columbia ALS-4027 on jacket. Close-up smiling portrait. Full tracklist not verified from Discogs/web within this pass — incomplete.",
+      "coverImage": "20_shimakura_aisho.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=島倉千代子+ALS-4027",
+      "tracks": []
+    },
+    {
+      "id": "21",
+      "artistJa": "金子晴美",
+      "artistEn": "Harumi Kaneko",
+      "titleJa": "アイ・ラヴ・ニューヨーク / I Love New York",
+      "titleEn": "I Love New York",
+      "label": "Philips",
+      "catalogNumber": "FS-7022 (Discogs commonly lists FS-7032 for same title)",
+      "year": "1979/1980",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Jazz Vocal",
+      "retailPriceJpy": "¥2,500 (typical Philips price mark)",
+      "notes": "Salmon-pink EXCELLENT VOCAL ALBUM obi. Photo shows FS-7022; Discogs/MION list FS-7032 — possible variant or misread; verify spine/label. Feat. Hank Jones, Ron Carter et al.",
+      "coverImage": "21_kaneko_i_love_ny.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=Harumi+Kaneko+I+Love+New+York",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "How About You?",
+          "titleEn": "How About You?",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "Too Shy To Say",
+          "titleEn": "Too Shy To Say",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "I've Got Just About Everything",
+          "titleEn": "I've Got Just About Everything",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "But For Now",
+          "titleEn": "But For Now",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "Comin' Home Baby",
+          "titleEn": "Comin' Home Baby",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "You Took Advantage Of Me",
+          "titleEn": "You Took Advantage Of Me",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "These Foolish Things Remind Me Of You",
+          "titleEn": "These Foolish Things",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "A Good Man Is Hard To Find",
+          "titleEn": "A Good Man Is Hard To Find",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "Brown Skin Girl",
+          "titleEn": "Brown Skin Girl",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "artistJa": "桜田淳子",
+      "artistEn": "Junko Sakurada",
+      "titleJa": "ベスト・コレクション '76",
+      "titleEn": "Best Collection '76",
+      "label": "Victor",
+      "catalogNumber": "SJV-832~3 (photo/tentative also cited SJV-831~2)",
+      "year": "1976",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Idol Kayōkyoku",
+      "retailPriceJpy": "unknown (often ¥3,600 listed for set)",
+      "notes": "2LP gatefold; Discogs/MION/FanFan: SJV-832~3. Parent tentative SJV-831~2 — verify jacket. 24 tracks.",
+      "coverImage": "22_sakurada_best76.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=桜田淳子+ベスト・コレクション+76",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "ゆれてる私",
+          "titleEn": "Yureteru Watashi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "あなたが恋しい",
+          "titleEn": "Anata ga Koishii",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "天使のくちびる",
+          "titleEn": "Tenshi no Kuchibiru",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "十七の夏",
+          "titleEn": "Jūnana no Natsu",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "白い風よ",
+          "titleEn": "Shiroi Kaze yo",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "ひとり歩き",
+          "titleEn": "Hitori Aruki",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "はじめての出来事",
+          "titleEn": "Hajimete no Dekigoto",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "叱られてから",
+          "titleEn": "Shikararete kara",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "黄色いリボン",
+          "titleEn": "Kiiroi Ribbon",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "花物語",
+          "titleEn": "Hana Monogatari",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "高原物語",
+          "titleEn": "Kōgen Monogatari",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "わたしの青い鳥",
+          "titleEn": "Watashi no Aoi Tori",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "1",
+          "titleJa": "あなたに贈る詩",
+          "titleEn": "Anata ni Okuru Uta",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "2",
+          "titleJa": "うわさのダニエル",
+          "titleEn": "Uwasa no Daniel",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "3",
+          "titleJa": "初恋の散歩道",
+          "titleEn": "Hatsukoi no Sanpomichi",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "4",
+          "titleJa": "もうひとりの私",
+          "titleEn": "Mō Hitori no Watashi",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "5",
+          "titleJa": "１７さいの日記",
+          "titleEn": "17-sai no Nikki",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "6",
+          "titleJa": "思いやり",
+          "titleEn": "Omoiyari",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "1",
+          "titleJa": "あなたが頬をぶったの",
+          "titleEn": "Anata ga Hoho o Butta no",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "2",
+          "titleJa": "月影のくちづけ",
+          "titleEn": "Tsukikage no Kuchizuke",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "3",
+          "titleJa": "まだ子供でしょうか",
+          "titleEn": "Mada Kodomo deshō ka",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "4",
+          "titleJa": "あきらめて",
+          "titleEn": "Akiramete",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "5",
+          "titleJa": "初恋時代",
+          "titleEn": "Hatsukoi Jidai",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "6",
+          "titleJa": "風の中の恋",
+          "titleEn": "Kaze no Naka no Koi",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "artistJa": "いしだあゆみ",
+      "artistEn": "Ayumi Ishida",
+      "titleJa": "魅力のすべて G&G 3000",
+      "titleEn": "Miryoku no Subete / Green & Glorious 3000",
+      "label": "Columbia",
+      "catalogNumber": "JDX-6003~4",
+      "year": "unknown",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku",
+      "retailPriceJpy": "¥3,000",
+      "notes": "Pink G&G 3000 obi, 2枚組 ¥3000. Obi lists many titles; full side assignment not fully verified — tracks below from obi reading, sides provisional.",
+      "coverImage": "23_ishida_gg3000.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=いしだあゆみ+JDX-6003",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "夢でいいから",
+          "titleEn": "夢でいいから (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "ふたりだけの城",
+          "titleEn": "ふたりだけの城 (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "涙の中を歩いてる",
+          "titleEn": "涙の中を歩いてる (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "今日からあなたと",
+          "titleEn": "今日からあなたと (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "昨日の女",
+          "titleEn": "昨日の女 (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "止めないで",
+          "titleEn": "止めないで (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "おもいでの長崎",
+          "titleEn": "おもいでの長崎 (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "ブルー・パール",
+          "titleEn": "ブルー・パール (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "さすらいの天使",
+          "titleEn": "さすらいの天使 (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "愛の芽ばえ",
+          "titleEn": "愛の芽ばえ (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "渚にて",
+          "titleEn": "渚にて (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "絵にかえたなら",
+          "titleEn": "絵にかえたなら (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "1",
+          "titleJa": "雪の景色",
+          "titleEn": "雪の景色 (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "2",
+          "titleJa": "絵本の中で",
+          "titleEn": "絵本の中で (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "3",
+          "titleJa": "砂漠のような東京で",
+          "titleEn": "砂漠のような東京で (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "4",
+          "titleJa": "何があなたをそうさせた",
+          "titleEn": "何があなたをそうさせた (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "5",
+          "titleJa": "生まれかわるものならば",
+          "titleEn": "生まれかわるものならば (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "6",
+          "titleJa": "あなたならどうする",
+          "titleEn": "あなたならどうする (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "1",
+          "titleJa": "喧嘩のあとでくちづけを",
+          "titleEn": "喧嘩のあとでくちづけを (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "2",
+          "titleJa": "まるで飛べない小鳥のように",
+          "titleEn": "まるで飛べない小鳥のように (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "3",
+          "titleJa": "太陽は泣いている",
+          "titleEn": "太陽は泣いている (obi; side provisional)",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "4",
+          "titleJa": "ブルー・ライト・ヨコハマ",
+          "titleEn": "ブルー・ライト・ヨコハマ (obi; side provisional)",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "ベストアルバム",
+      "titleEn": "Best Album (cream kimono / blue sakura border)",
+      "label": "Columbia",
+      "catalogNumber": "unknown (possibly ALS-7054 or related best; NOT AX-7293/#07)",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "DISTINCT from #07 and #08. Cream/off-white kimono, peach background, navy blue sakura border, vertical red title panel. Catalog number not visible on front crop. Tracklist unverified for this specific jacket — incomplete.",
+      "coverImage": "24_miyako_best_cream.jpg",
+      "discogsUrl": "",
+      "tracks": []
+    },
+    {
+      "id": "25",
+      "artistJa": "西田佐知子",
+      "artistEn": "Sachiko Nishida",
+      "titleJa": "恋と愛と涙",
+      "titleEn": "Koi to Ai to Namida (Love, Affection, and Tears)",
+      "label": "Polydor",
+      "catalogNumber": "MR 8001/2",
+      "year": "1970",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Mood Kayō",
+      "retailPriceJpy": "¥2,000",
+      "notes": "Released 1970-05-01. Orange Polydor obi, 全24曲. Close-up photo batch.",
+      "coverImage": "25_nishida_koi_ai_namida.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=西田佐知子+MR-8001",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "アカシアの雨がやむとき",
+          "titleEn": "Akashia no Ame ga Yamu Toki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "コーヒー・ルンバ",
+          "titleEn": "Coffee Rumba",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "夜が切ない",
+          "titleEn": "Yoru ga Setsunai",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "エリカの花散るとき",
+          "titleEn": "Erika no Hana Chiru Toki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "故郷のように",
+          "titleEn": "Kokyō no Yō ni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "恋心",
+          "titleEn": "Koigokoro",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "東京ブルース",
+          "titleEn": "Tōkyō Blues",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "死ぬまで一緒に",
+          "titleEn": "Shinu made Issho ni",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "博多ブルース",
+          "titleEn": "Hakata Blues",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "東京讃歌",
+          "titleEn": "Tōkyō Sanka",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "裏町酒場",
+          "titleEn": "Uramachi Sakaba",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "裏町ブルース",
+          "titleEn": "Uramachi Blues",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "1",
+          "titleJa": "女の意地",
+          "titleEn": "Onna no Iji",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "2",
+          "titleJa": "赤坂の夜は更けて",
+          "titleEn": "Akasaka no Yoru wa Fukete",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "3",
+          "titleJa": "信じていたい",
+          "titleEn": "Shinjite Itai",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "4",
+          "titleJa": "知りたくないの",
+          "titleEn": "Shiritakunai no",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "5",
+          "titleJa": "たそがれの恋",
+          "titleEn": "Tasogare no Koi",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "6",
+          "titleJa": "ウナ・セラ・ディ東京",
+          "titleEn": "Una Sera di Tokyo",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "1",
+          "titleJa": "涙のかわくまで",
+          "titleEn": "Namida no Kawaku made",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "2",
+          "titleJa": "星のナイト・クラブ",
+          "titleEn": "Hoshi no Night Club",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "3",
+          "titleJa": "鍵をかけないで",
+          "titleEn": "Kagi o Kakenai de",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "4",
+          "titleJa": "爪",
+          "titleEn": "Tsume",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "5",
+          "titleJa": "古い傷あと",
+          "titleEn": "Furui Kizuato",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "6",
+          "titleJa": "ベッドで煙草を吸わないで",
+          "titleEn": "Bed de Tabako o Suwanai de",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "artistJa": "森山良子",
+      "artistEn": "Ryoko Moriyama",
+      "titleJa": "良子の子守唄",
+      "titleEn": "Ryoko's Lullabies / Sings Lullaby",
+      "label": "Philips",
+      "catalogNumber": "FS-8041 (jacket; Discogs/MION list FS-8021 for same title)",
+      "year": "1968",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / Lullaby",
+      "retailPriceJpy": "¥1,700",
+      "notes": "Jacket top-right prints FS-8041 (verified from photo crop). Discogs/MION list Philips FS-8021 (1968, ¥1700, gatefold) for 良子の子守唄=Sings Lullaby. Possible misread or rare variant — keep jacket reading; cross-check spine/label. Blue Philips obi ¥1700.",
+      "coverImage": "26_moriyama_komoriuta.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=森山良子+FS-8021",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "江戸子守唄 (坊やはよい子だ)",
+          "titleEn": "Edo Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "五つ木の子守唄",
+          "titleEn": "Itsutsu-gi no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "島原の子守唄",
+          "titleEn": "Shimabara no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "竹田の子守唄",
+          "titleEn": "Takeda no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "大阪子守唄",
+          "titleEn": "Osaka Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "中国地方の子守唄",
+          "titleEn": "Chūgoku-chihō no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "夜明けの子守唄",
+          "titleEn": "Yoake no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "お山の子守唄",
+          "titleEn": "Hushabye Mountain",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "ハッシャ・バイ",
+          "titleEn": "Hush-A-Bye",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "サマータイム",
+          "titleEn": "Summertime",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "ハッシュ・リトル・ベイビー",
+          "titleEn": "Hush Little Baby",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "私の試練",
+          "titleEn": "All My Trials",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "ライラ",
+          "titleEn": "Lay-La",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "世界の子守唄メドレー",
+          "titleEn": "World Lullaby Medley",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "artistJa": "やまがたすみこ",
+      "artistEn": "Sumiko Yamagata",
+      "titleJa": "風・空・そして愛",
+      "titleEn": "Kaze, Sora, Soshite Ai (Wind, Sky, and Love)",
+      "label": "Columbia (Nippon Columbia)",
+      "catalogNumber": "CD-7098 (jacket; original often cited YS-10144-J)",
+      "year": "1973",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / College Folk",
+      "retailPriceJpy": "¥2,000 (sticker)",
+      "notes": "Jacket prints CD-7098. Columbia official: debut LP 1973-03-25; paper-sleeve CD cites original YS-10144. CD-7098 is Columbia CD-series repress/reissue of same album. Tracks match debut 12-song program.",
+      "coverImage": "27_yamagata_kaze_sora.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=やまがたすみこ+風・空・そして愛",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "風に吹かれて行こう",
+          "titleEn": "Kaze ni Fukarete Ikō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "赤い花白い花",
+          "titleEn": "Akai Hana Shiroi Hana",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "しあわせの足音",
+          "titleEn": "Shiawase no Ashioto",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "秋でもないのに",
+          "titleEn": "Aki demo nai noni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "今日の日はさようなら",
+          "titleEn": "Kyō no Hi wa Sayōnara",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "暗い砂浜",
+          "titleEn": "Kurai Sunahama",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "この広い野原いっぱい",
+          "titleEn": "Kono Hiroi Nohara Ippai",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "真夜中のギター",
+          "titleEn": "Mayonaka no Guitar",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "そしたら空は",
+          "titleEn": "Soshitara Sora wa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "ぽかんとひとり日曜日",
+          "titleEn": "Pokanto Hitori Nichiyōbi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "ママレード色の恋",
+          "titleEn": "Marmalade-iro no Koi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "あの人が好きなのに",
+          "titleEn": "Ano Hito ga Suki nanoni",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "artistJa": "いしだあゆみ",
+      "artistEn": "Ayumi Ishida",
+      "titleJa": "リサイタル = My First Recital",
+      "titleEn": "My First Recital",
+      "label": "Columbia",
+      "catalogNumber": "YS-10075-J",
+      "year": "1970",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Live",
+      "retailPriceJpy": "¥1,900",
+      "notes": "Released 1970-01-10. Live 1969-10-27 Sankei Hall. Red Columbia obi. Gatefold. Backing: Nobuo Hara & Sharps & Flats + strings. 17 tracks.",
+      "coverImage": "28_ishida_recital.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=いしだあゆみ+YS-10075",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "ブルー・ライト・ヨコハマ",
+          "titleEn": "Blue Light Yokohama",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "明日より永遠に",
+          "titleEn": "Ashita yori Eien ni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "涙の中を歩いてる",
+          "titleEn": "Namida no Naka o Aruiteru",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "男と女",
+          "titleEn": "Otoko to Onna",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "黒いオルフェ",
+          "titleEn": "Kuroi Orfeu",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "白い恋人たち",
+          "titleEn": "Shiroi Koibito-tachi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "いそしぎ",
+          "titleEn": "Isoshigi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "8",
+          "titleJa": "シェルブールの雨傘",
+          "titleEn": "Les Parapluies de Cherbourg",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "スカボロー・フェアー",
+          "titleEn": "Scarborough Fair",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "輝く星座（アクエリアス）",
+          "titleEn": "Aquarius",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "或る日突然",
+          "titleEn": "Aru Hi Totsuzen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "アカシヤの雨がやむとき",
+          "titleEn": "Acacia no Ame ga Yamu toki",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "いいじゃないの幸せならば",
+          "titleEn": "Ii ja nai no Shiawase naraba",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "太陽は泣いている",
+          "titleEn": "Taiyō wa Naite iru",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "喧嘩のあとでくちづけを",
+          "titleEn": "Kenka no ato de Kuchizuke o",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "8",
+          "titleJa": "今日からあなたと",
+          "titleEn": "Kyō kara Anata to",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "9",
+          "titleJa": "ブルー・パール（あゆみに贈る歌）",
+          "titleEn": "Blue Pearl",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "artistJa": "西田佐知子",
+      "artistEn": "Sachiko Nishida",
+      "titleJa": "城ヶ島の雨 — 日本の叙情曲を歌う",
+      "titleEn": "Jogashima no Ame — Sings Japanese Lyrical Songs",
+      "label": "Polydor",
+      "catalogNumber": "MR 3133",
+      "year": "1970",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Lyrical songs",
+      "retailPriceJpy": "¥1,700",
+      "notes": "Released 1970-09-01. Reissue of SLJM-1022 with reordered tracks (Wikipedia). Green panel lists titles. Side split below follows common SLJM/compact program; MR-3133 order may differ — mark if verifying against disc.",
+      "coverImage": "29_nishida_jogashima.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=西田佐知子+MR-3133",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "城ヶ島の雨",
+          "titleEn": "Jogashima no Ame",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "浜辺の歌",
+          "titleEn": "Hamabe no Uta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "出船",
+          "titleEn": "Defune",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "浜千鳥",
+          "titleEn": "Hamachidori",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "荒城の月",
+          "titleEn": "Kōjō no Tsuki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "叱られて",
+          "titleEn": "Shikararete",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "宵待草",
+          "titleEn": "Yoimachigusa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "花嫁人形",
+          "titleEn": "Hanayome Ningyō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "花",
+          "titleEn": "Hana",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "早春賦",
+          "titleEn": "Sōshunfu",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "平城山",
+          "titleEn": "Nara-yama / Heijōzan",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "ちんちん千鳥",
+          "titleEn": "Chinchin Chidori",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "30",
       "artistJa": "小林幸子",
-      "title": "Omoide Sake",
+      "artistEn": "Sachiko Kobayashi",
       "titleJa": "おもいで酒",
-      "cover": "30_kobayashi_omoide_sake.jpg",
-      "label": "Warner Pioneer",
-      "catalog": "L-10148W"
+      "titleEn": "Omoide-zake",
+      "label": "Warner Bros. / Warner-Pioneer",
+      "catalogNumber": "L-10148W",
+      "year": "1979",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "¥2,500",
+      "notes": "CORRECTED catalog: jacket top bar clearly prints STEREO L-10148W + Warner Bros shield (not Polydor MR-3180 from tentative ID). Official LP 1979-07. Green/white striped top bar. 12 tracks per sachiko.co.jp.",
+      "coverImage": "30_kobayashi_omoidezake.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=小林幸子+L-10148W",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "おもいで酒",
+          "titleEn": "Omoide-zake",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "旅の終りに",
+          "titleEn": "Tabi no Owari ni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "津軽海峡 冬景色",
+          "titleEn": "Tsugaru Kaikyō Fuyugeshiki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "ひとり酒",
+          "titleEn": "Hitori-zake",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "涙の朝",
+          "titleEn": "Namida no Asa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "カスマプゲ",
+          "titleEn": "Kasumapuge",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "夢追い酒",
+          "titleEn": "Yumeoi-zake",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "花街の母",
+          "titleEn": "Hanamachi no Haha",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "北の宿から",
+          "titleEn": "Kita no Yado kara",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "酒と泪と男と女",
+          "titleEn": "Sake to Namida to Otoko to Onna",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "みちづれ",
+          "titleEn": "Michizure",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "北国の春",
+          "titleEn": "Kitaguni no Haru",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "artistJa": "美空ひばり",
+      "artistEn": "Hibari Misora",
+      "titleJa": "歌は我が命 第2集",
+      "titleEn": "Uta wa Waga Inochi Vol. 2",
+      "label": "Columbia",
+      "catalogNumber": "ALS-5059 (jacket; tentative ALS-5135 rejected)",
+      "year": "1968",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka / Kayōkyoku",
+      "retailPriceJpy": "unknown",
+      "notes": "CORRECTED: photo top-left prints ALS-5059; Columbia HQCD notes original ALS-5059 (1968-05-29) for 第2集. Tentative ALS-5135 does not match jacket or official discography. Dark blue cover, oval portrait.",
+      "coverImage": "31_misora_uta_waga_inochi_vol2.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=美空ひばり+ALS-5059",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "道",
+          "titleEn": "Michi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "だけど私は……",
+          "titleEn": "Dakedo Watashi wa…",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "ひとり旅",
+          "titleEn": "Hitori Tabi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "海鳴りの丘",
+          "titleEn": "Uminari no Oka",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "花愁",
+          "titleEn": "Kashū",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "武蔵野の恋",
+          "titleEn": "Musashino no Koi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "太陽と私",
+          "titleEn": "Taiyō to Watashi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "唇に花シャッポに雨",
+          "titleEn": "Kuchibiru ni Hana / Chapeau ni Ame",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "愛のボサ・ノバ",
+          "titleEn": "Ai no Bossa Nova",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "別れてもなお",
+          "titleEn": "Wakarete mo nao",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "夜更けのささやき",
+          "titleEn": "Yofuke no Sasayaki",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "星空の微笑み",
+          "titleEn": "Hoshizora no Hohoemi",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "artistJa": "西川峰子",
+      "artistEn": "Mineko Nishikawa",
+      "titleJa": "あなたにあげる",
+      "titleEn": "Anata ni Ageru",
+      "label": "Victor",
+      "catalogNumber": "SJX-198 (Discogs/MION; photo tentatively SJX-189)",
+      "year": "1974",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "Victor portrait cover. Discogs/MION/SnowRecords list SJX-198 (1974). Photo crop tentatively read SJX-189 — likely 8/9 OCR; verify spine. 12 tracks from MION.",
+      "coverImage": "32_nishikawa_anata_ni_ageru.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=西川峰子+SJX-198",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "初めてのひと",
+          "titleEn": "Hajimete no Hito",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "あなたにあげる",
+          "titleEn": "Anata ni Ageru",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "おとめ港",
+          "titleEn": "Otome Minato",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "初恋十三夜",
+          "titleEn": "Hatsukoi Jūsanya",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "初恋の笛",
+          "titleEn": "Hatsukoi no Fue",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "しあわせさん",
+          "titleEn": "Shiawase-san",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "嘘つき恋人さん",
+          "titleEn": "Usotsuki Koibito-san",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "嫁入り舟",
+          "titleEn": "Yomeiri-bune",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "くちづけ帰り道",
+          "titleEn": "Kuchizuke Kaerimichi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "私の城下町",
+          "titleEn": "Watashi no Jōkamachi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "月見草",
+          "titleEn": "Tsukimisō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "瀬戸の花嫁",
+          "titleEn": "Seto no Hanayome",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "大阪しぐれ",
+      "titleEn": "Osaka Shigure",
+      "label": "Columbia",
+      "catalogNumber": "AX-7226 (Columbia official album; photo tentatively AK-7168)",
+      "year": "1980",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "Green vertical banner lists tracks matching Columbia album AX-7226 (1980-02-25). Photo tentatively read AK-7168 (AK-216 is the single). Prefer official AX-7226; verify spine/label. 12 tracks.",
+      "coverImage": "33_miyako_osaka_shigure.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=都はるみ+AX-7226",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "大阪しぐれ",
+          "titleEn": "Osaka Shigure",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "おんな恋唄",
+          "titleEn": "Onna Koiuta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "北旅情",
+          "titleEn": "Kita Ryojō",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "別れのとき……笑顔",
+          "titleEn": "Wakare no toki… Egao",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "なみだ妻",
+          "titleEn": "Namida-zuma",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "花あやめ",
+          "titleEn": "Hana Ayame",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "さよなら海峡",
+          "titleEn": "Sayonara Kaikyō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "悲恋",
+          "titleEn": "Hiren",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "京都生まれの女",
+          "titleEn": "Kyōto Umare no Onna",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "夢でいいから",
+          "titleEn": "Yume de ii kara",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "出船悲しや",
+          "titleEn": "Defune Kanashiya",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "はるみ",
+          "titleEn": "Harumi",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "artistJa": "西川峰子",
+      "artistEn": "Mineko Nishikawa",
+      "titleJa": "ベスト・コレクション '76",
+      "titleEn": "Best Collection '76",
+      "label": "Victor",
+      "catalogNumber": "SJV-836~7",
+      "year": "1975/1976",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Kayōkyoku / Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "IDENTIFIED: NOT Junko Sakurada. Jacket Victor Nipper + SJV-836~7 STEREO (photo crop). SnowRecords/Sekaimen: 西川峰子ベスト・コレクション’76 SJV-836(~7), 2LP ~22 tracks. Distinct from #22 桜田淳子 SJV-832~3. Full side-assigned tracklist not verified this pass — tracks omitted rather than invented.",
+      "coverImage": "34_nishikawa_best76.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=西川峰子+SJV-836",
+      "tracks": []
+    },
+    {
+      "id": "35",
+      "artistJa": "藤圭子",
+      "artistEn": "Keiko Fuji",
+      "titleJa": "怨み節 ～オリジナル・ヒット曲集",
+      "titleEn": "Urami-bushi / Original Hit Collection",
+      "label": "RCA",
+      "catalogNumber": "R4J-7021",
+      "year": "1973",
+      "format": "LP (CD-4 Quadradisc)",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "unknown",
+      "notes": "Jacket: RCA R4J-7021 + yellow CD-4 quadradisc banner; title calligraphy 怨み節; subtitle ～オリジナル・ヒット曲集. Surround discography lists R4J-7021 as Original Hits CD-4. Related stereo comps use other cats (e.g. JRX-2 / R4J-7024). Exact R4J-7021 tracklist not verified from Discogs this pass — tracks omitted.",
+      "coverImage": "35_fuji_uramibushi_cd4.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=藤圭子+R4J-7021",
+      "tracks": []
+    },
+    {
+      "id": "36",
+      "artistJa": "都はるみ",
+      "artistEn": "Harumi Miyako",
+      "titleJa": "都はるみ・ベスト16",
+      "titleEn": "Harumi Miyako Best 16",
+      "label": "Columbia",
+      "catalogNumber": "AA-7092",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Enka",
+      "retailPriceJpy": "¥2,500 (series typical)",
+      "notes": "DUPLICATE WARNING vs #08: same Best16 program / white-kimono-on-blue family. #08 catalogued AX-7092 (notes already said cover may read AA/AX). This copy jacket prints AA-7092 — physically separate copy in photos → keep separate Collection ID. Tracks mirrored from #08 FanFan AX-7092 listing.",
+      "coverImage": "36_miyako_best16_aa7092.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=都はるみ+AA-7092",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "海鳴りの詩",
+          "titleEn": "Uminari no Uta",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "北の宿から",
+          "titleEn": "Kita no Yado kara",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "ただひとり",
+          "titleEn": "Tada Hitori",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "雨やどり",
+          "titleEn": "Amayadori",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "おぼろ月夜",
+          "titleEn": "Oborozukiyo",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "ふるさとが泣いた",
+          "titleEn": "Furusato ga Naita",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "白樺に涙あり",
+          "titleEn": "Shirakaba ni Namida Ari",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "8",
+          "titleJa": "ゆうがおの丘",
+          "titleEn": "Yūgao no Oka",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "涙の連絡船",
+          "titleEn": "Namida no Renrakusen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "好きになった人",
+          "titleEn": "Suki ni Natta Hito",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "おんなの海峡",
+          "titleEn": "Onna no Kaikyō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "アンコ椿は恋の花",
+          "titleEn": "Anko Tsubaki wa Koi no Hana",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "港町",
+          "titleEn": "Minatomachi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "惚れちゃったんだよ",
+          "titleEn": "Horechatta n da yo",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "初恋の川",
+          "titleEn": "Hatsukoi no Kawa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "8",
+          "titleJa": "さよなら列車",
+          "titleEn": "Sayonara Ressha",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "artistJa": "Various Artists",
+      "artistEn": "Various Artists",
+      "titleJa": "地球はひとつ SQ 4チャンネル",
+      "titleEn": "Chikyū wa Hitotsu / SQ 4-Channel (sampler)",
+      "label": "Sony / CBS-Sony Special Products",
+      "catalogNumber": "SX-1318 (jacket; dealers also cite SPEC-94019)",
+      "year": "1971",
+      "format": "LP (SQ Quadraphonic)",
+      "country": "Japan",
+      "genre": "Pop / Jazz / Sampler",
+      "retailPriceJpy": "unknown",
+      "notes": "Black groove-art cover; bottom text 地球はひとつ SQ 4チャンネル; Sony + SX-1318 on jacket. SQ 4-channel demo/sampler known for including 原信夫とシャープス＆フラッツ「Bitter Sweet Samba」. Full side-assigned tracklist not verified without inventing — omit tracks.",
+      "coverImage": "37_chikyu_wa_hitotsu_sq.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=SPEC-94019+SQ",
+      "tracks": []
+    },
+    {
+      "id": "38",
+      "artistJa": "赤い鳥",
+      "artistEn": "The Red Birds (Akai Tori)",
+      "titleJa": "THE RED BIRDS STUDIO LIVE / スタジオ・ライブ",
+      "titleEn": "Studio Live",
+      "label": "Liberty (Toshiba Musical Industries)",
+      "catalogNumber": "LTP-9049",
+      "year": "1971",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Folk / Pop",
+      "retailPriceJpy": "¥1,380 (sticker)",
+      "notes": "Red pop-art cover. Recorded 1971-10-12 Toshiba Studio No.1. MION/Discogs LTP-9049. 12 tracks.",
+      "coverImage": "38_red_birds_studio_live.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=赤い鳥+LTP-9049",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "You've Got A Friend",
+          "titleEn": "You've Got A Friend",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "レクイエム",
+          "titleEn": "Requiem",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "アーメン",
+          "titleEn": "Amen",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "Come And Go With Me",
+          "titleEn": "Come And Go With Me",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "窓に明りがともる時",
+          "titleEn": "Mado ni Akari ga Tomoru Toki",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "What A Beautiful World",
+          "titleEn": "What A Beautiful World",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "翼をください",
+          "titleEn": "Tsubasa o Kudasai",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "もうっこ",
+          "titleEn": "Moukko",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "ちっちゃな子守唄",
+          "titleEn": "Chitchana Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "竹田の子守唄",
+          "titleEn": "Takeda no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "河",
+          "titleEn": "Kawa",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "フィンランディア（レクイエム・アーメン）",
+          "titleEn": "Finlandia (Requiem Amen)",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "artistJa": "赤い鳥",
+      "artistEn": "The Red Birds (Akai Tori)",
+      "titleJa": "ゴールデン・ディスク",
+      "titleEn": "Golden Disk (2LP)",
+      "label": "Toshiba Express / Liberty",
+      "catalogNumber": "ETP-60222~23",
+      "year": "unknown",
+      "format": "2LP",
+      "country": "Japan",
+      "genre": "Folk / Pop",
+      "retailPriceJpy": "¥2,380 (sticker)",
+      "notes": "Orange-border group photo; Liberty/Toshiba logos; ETP-60222~23. Content matches 2LP Golden Disk compilations (also issued as LTP-60039/40). Side splits below from published Golden Disk 28-track listing (Liberty 2LP); confirm against this Express pressing inserts.",
+      "coverImage": "39_akai_tori_golden_disk.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=赤い鳥+ETP-60222",
+      "tracks": [
+        {
+          "side": "A",
+          "number": "1",
+          "titleJa": "河",
+          "titleEn": "Kawa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "2",
+          "titleJa": "忘れていた朝",
+          "titleEn": "Wasurete ita Asa",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "3",
+          "titleJa": "赤い花 白い花",
+          "titleEn": "Akai Hana Shiroi Hana",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "4",
+          "titleJa": "誰のために",
+          "titleEn": "Dare no tame ni",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "5",
+          "titleJa": "赤い屋根の家",
+          "titleEn": "Akai Yane no Ie",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "6",
+          "titleJa": "旅",
+          "titleEn": "Tabi",
+          "duration": ""
+        },
+        {
+          "side": "A",
+          "number": "7",
+          "titleJa": "白い花",
+          "titleEn": "Shiroi Hana",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "1",
+          "titleJa": "竹田の子守唄",
+          "titleEn": "Takeda no Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "2",
+          "titleJa": "虹を歌おう",
+          "titleEn": "Niji o Utaō",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "3",
+          "titleJa": "ビューティフル・ワールド",
+          "titleEn": "Beautiful World",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "4",
+          "titleJa": "ちっちゃな子守唄",
+          "titleEn": "Chitchana Komoriuta",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "5",
+          "titleJa": "明日に架ける橋",
+          "titleEn": "Ashita ni Kakeru Hashi",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "6",
+          "titleJa": "紙風船",
+          "titleEn": "Kami Fūsen",
+          "duration": ""
+        },
+        {
+          "side": "B",
+          "number": "7",
+          "titleJa": "翼をください",
+          "titleEn": "Tsubasa o Kudasai",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "1",
+          "titleJa": "パーティーへおいでよ",
+          "titleEn": "Party e Oide yo",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "2",
+          "titleJa": "風は旅人",
+          "titleEn": "Kaze wa Tabibito",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "3",
+          "titleJa": "雨",
+          "titleEn": "Ame",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "4",
+          "titleJa": "鳥のように",
+          "titleEn": "Tori no yō ni",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "5",
+          "titleJa": "まつり",
+          "titleEn": "Matsuri",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "6",
+          "titleJa": "美しい朝",
+          "titleEn": "Utsukushii Asa",
+          "duration": ""
+        },
+        {
+          "side": "C",
+          "number": "7",
+          "titleJa": "祈り",
+          "titleEn": "Inori",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "1",
+          "titleJa": "二人",
+          "titleEn": "Futari",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "2",
+          "titleJa": "みちくさ",
+          "titleEn": "Michikusa",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "3",
+          "titleJa": "恋よさようなら",
+          "titleEn": "Koi yo Sayōnara",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "4",
+          "titleJa": "こわれた世界",
+          "titleEn": "Kowareta Sekai",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "5",
+          "titleJa": "ラヴ・ヒム",
+          "titleEn": "Love Him",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "6",
+          "titleJa": "窓に明かりがともる時",
+          "titleEn": "Mado ni Akari ga Tomoru Toki",
+          "duration": ""
+        },
+        {
+          "side": "D",
+          "number": "7",
+          "titleJa": "美しい星",
+          "titleEn": "Utsukushii Hoshi",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "artistJa": "笹川鎮江",
+      "artistEn": "Shizue Sasagawa",
+      "titleJa": "愛吟集 第2集",
+      "titleEn": "Aiginshū Vol. 2 (Favorite Gin’ei Songs Vol. 2)",
+      "label": "Victor",
+      "catalogNumber": "SJX-10115",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Traditional / Gin’ei (吟詠)",
+      "retailPriceJpy": "unknown",
+      "notes": "Victor SJX-10115; moon/sakura/bird illustration; inset portrait; title 愛吟集 第2集 with 笹川鎮江. Tracklist not found on Discogs/web this pass — omit rather than invent. (Do not confuse with unrelated SJX-10115 attributions.)",
+      "coverImage": "40_sasagawa_aiginshu_vol2.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=SJX-10115",
+      "tracks": []
+    },
+    {
+      "id": "41",
+      "artistJa": "芳村伊十郎・杵屋正次郎 他（要確認表記）",
+      "artistEn": "Yoshimura Ijūrō, Kineya Shōjirō et al. (verify jacket credits)",
+      "titleJa": "長唄 新曲浦島",
+      "titleEn": "Nagauta Shinkyoku Urashima",
+      "label": "Sony",
+      "catalogNumber": "CL-22",
+      "year": "unknown",
+      "format": "LP",
+      "country": "Japan",
+      "genre": "Traditional / Nagauta",
+      "retailPriceJpy": "unknown",
+      "notes": "Sony CL-22; English NAGAUTA SHINKYOKU URASHIMA; woodblock-style Urashima figure. Photo credits mention Yoshimura / Kineya performers — verify exact name forms on jacket. Tracklist (likely multi-part nagauta) not verified — omit.",
+      "coverImage": "41_nagauta_urashima_cl22.jpg",
+      "discogsUrl": "https://www.discogs.com/search/?q=CL-22+浦島+長唄",
+      "tracks": []
     }
   ]
 }

@@ -1,45 +1,62 @@
-# Record Collection
+# Japanese Vinyl Browser
 
-A static [Vite](https://vite.dev/) + React + TypeScript browser for Richard’s vinyl. Album covers and metadata are served as files from `public/` — no backend required.
+A local Vite + React + TypeScript app for browsing Richard’s Japanese vinyl collection (enka, kayōkyoku, folk LPs). Bilingual titles, sort/search, and per-side track listings.
 
-## Local development
+## Quick start
 
 ```bash
+cd /workspace/vinyl-browser
 npm install
-npm run dev
+npm run sync-data   # optional: rebuild JSON from CSVs
+npm run dev         # http://localhost:5173
 ```
 
-Then open the URL Vite prints (usually `http://localhost:5173`).
+Production preview:
 
-| Script | What it does |
-| --- | --- |
+```bash
+npm run build
+npm run preview -- --host 0.0.0.0 --port 4173
+```
+
+Then open **http://127.0.0.1:4173**
+
+## npm scripts
+
+| Script | Purpose |
+|--------|---------|
 | `npm run dev` | Vite dev server with HMR |
-| `npm run build` | Typecheck and emit production files to `dist/` |
-| `npm run preview` | Serve the production build locally |
-| `npm run sync-data` | Rebuild `public/data/collection.json` from `public/covers/` |
+| `npm run build` | Typecheck + production build → `dist/` |
+| `npm run preview` | Serve the production build |
+| `npm run sync-data` | Rebuild `public/data/collection.json` from CSVs |
 
-`sync-data` keeps existing artist/title/label/catalog fields when a cover is already listed. New cover files only add an id and filename-derived title — it does not invent album facts.
+## Data layout
 
-## Collection data
+```
+data/
+  record_collection.csv          # album rows
+  record_collection_tracks.csv   # track rows
+public/
+  data/collection.json           # loaded by the app at runtime
+  covers/*.jpg                   # filenames match Cover Image Filename
+```
 
-- Covers: `public/covers/*.jpg`
-- Catalog: `public/data/collection.json`
+The UI fetches `/data/collection.json` only. Covers are requested as `/covers/<filename>`. Missing or broken images fall back to a warm gradient placeholder with artist initials.
 
-Cover filenames use `{id}_{slug}.jpg` (for example `21_kaneko_i_love_ny.jpg`). After adding or renaming covers, run `npm run sync-data` and fill in any missing metadata by hand.
+## Updating the catalog
 
-## Deploy on Netlify (GitHub)
+1. **Edit or replace CSVs** in `data/` (and/or drop a ready-made `collection.json`).
+2. **Add cover JPEGs** into `public/covers/` using the same filenames referenced in the CSV / JSON (`Cover Image Filename` / `coverImage`).
+3. **Sync** (if you changed CSVs):
+   ```bash
+   npm run sync-data
+   ```
+   This regenerates `public/data/collection.json`.
+4. **Rebuild / refresh**:
+   - Dev: Vite will pick up `public/` changes on reload.
+   - Preview: `npm run build && npm run preview -- --host 0.0.0.0 --port 4173`
 
-The app is a single-page app. Netlify should build from this repository’s default branch.
+You can also replace `public/data/collection.json` directly (e.g. copy from `/workspace/record-collection/collection.json`) and skip the sync script.
 
-1. Push this repo to GitHub (already the source of truth for this project).
-2. In [Netlify](https://app.netlify.com/), **Add new site → Import an existing project** and choose the GitHub repo `richardmands/record_collection`.
-3. Confirm build settings (also stored in `netlify.toml`):
+## Seed source
 
-   | Setting | Value |
-   | --- | --- |
-   | Build command | `npm run build` |
-   | Publish directory | `dist` |
-
-4. Deploy. The `[[redirects]]` rule in `netlify.toml` sends unknown paths to `index.html` with status `200` so client-side album URLs (`/?id=21`) keep working on refresh.
-
-Node 22 is a safe choice in Netlify’s build environment if you need to pin a version (`NODE_VERSION=22` in the site’s environment variables, or an `.nvmrc`).
+Initial data was copied from `/workspace/record-collection/` (`collection.json`, CSVs, and `covers-web/`).
