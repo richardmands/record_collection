@@ -1,0 +1,1510 @@
+{
+  "date": "2026-09-18",
+  "physicalCopies": 101,
+  "duplicateCopiesConfirmedByOwner": [
+    [
+      "84",
+      "110"
+    ],
+    [
+      "96",
+      "113"
+    ],
+    [
+      "102",
+      "117"
+    ]
+  ],
+  "records": [
+    {
+      "id": "42",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "TV Theme Song Hit Album",
+      "artist": "Mitsuko Horie",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "43",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Pin Pon Pan Taiso",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "44",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Golden TV Manga Daikoshin 1: Kyojin no Hoshi",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "45",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Minna de Henshin",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "46",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Yakyukyo no Uta: Original Soundtrack",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "47",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "The World of TV Animation",
+      "artist": "Mitsuko Horie",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "48",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Micchi no Heya",
+      "artist": "Mitsuko Horie",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "49",
+      "sourcePhoto": "IMG_3241.jpg",
+      "title": "Ghost in the Shell: Original Soundtrack",
+      "artist": "Kenji Kawai",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3241.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "50",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Jukebox 1",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "51",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Jukebox 2",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "52",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Jukebox 5",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "53",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Jukebox 6",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "54",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Jukebox 9",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "55",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Original Meikyokushu: Chikumagawa",
+      "artist": "Hiroshi Itsuki",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "56",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Ninkyo Enka Best 20",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "57",
+      "sourcePhoto": "IMG_3242.jpg",
+      "title": "Enka Guitar Best Hit Album",
+      "artist": "Performer to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3242.jpg",
+      "unresolved": [
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "58",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Kantaro Tsukiyouta",
+      "artist": "Minoru Obata",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "59",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Dick Mine Album: Wakaki Hi no Utagoe",
+      "artist": "Dick Mine",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "60",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Mugi to Heitai / Naku na Kobato yo",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "61",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Deluxe",
+      "artist": "Hachiro Kasuga",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "62",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Omae ni / Omoiyari",
+      "artist": "Frank Nagai",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "63",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Alps no Makiba",
+      "artist": "Katsuhiko Haida",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "64",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Untitled portrait sleeve (six-man group)",
+      "artist": "Artist to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "65",
+      "sourcePhoto": "IMG_3243.jpg",
+      "title": "Shinichi Mori On Stage",
+      "artist": "Shinichi Mori",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3243.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "66",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Title to verify (landscape sleeve with green obi)",
+      "artist": "Artist to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "67",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Title to verify (orange suit portrait)",
+      "artist": "Artist to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "68",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Rokyoku Meijinsen: Nanbuzaka Yuki no Wakare / Adauchi Zenya",
+      "artist": "Baio Kasugai",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "69",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Miryoku no Subete",
+      "artist": "Yoichi Sugawara",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://www.snowrecords.jp/?pid=174712227",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "70",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Nihon Kayoshi Vol. 3: Kimi Koishi (Steel Guitar)",
+      "artist": "Performer to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "71",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Best Collection '76",
+      "artist": "Koji Tsuruta",
+      "coverStatus": "retailer",
+      "coverSource": "https://www.snowrecords.jp/?pid=121676306",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://www.snowrecords.jp/?pid=121676306",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "72",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Title to verify (red background portrait)",
+      "artist": "Artist to verify",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Performer identification needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "73",
+      "sourcePhoto": "IMG_3244.jpg",
+      "title": "Aa Gunka",
+      "artist": "Koji Tsuruta",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3244.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "74",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Very Best: Ai no Tobira",
+      "artist": "Hiroshi Uchiyamada & Cool Five",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "75",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Kayama Yuzo Dori",
+      "artist": "Yuzo Kayama",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://www.kayamayuzo.com/release/?select=album&y=1970",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "76",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Floating Music",
+      "artist": "Stomu Yamashta & Come to the Edge",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://progrography.com/stomu-yamashta/stomu-yamashta-discography/",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "77",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Red Buddha Theatre: The Man from the East",
+      "artist": "Stomu Yamashta",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://progrography.com/stomu-yamashta/stomu-yamashta-discography/",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "78",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Hit Parade 1",
+      "artist": "Akira Kobayashi",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "79",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Screen Memory: Best 20 Deluxe",
+      "artist": "Yujiro Ishihara",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "80",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Hiromi Go (white-wall portrait sleeve)",
+      "artist": "Hiromi Go",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "81",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Kikyorai",
+      "artist": "Masashi Sada",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E5%B8%B0%E5%8E%BB%E6%9D%A5/321150745?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/1a/f5/fd/mzi.ifhsgoap.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E5%B8%B0%E5%8E%BB%E6%9D%A5/321150745?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "82",
+      "sourcePhoto": "IMG_3245.jpg",
+      "title": "Let's Go Kaguyahime",
+      "artist": "Kaguyahime",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3245.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "83",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Feel Free",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/feel-free/1537075926?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/30/29/24/30292418-0da3-f985-a8be-b12d45769802/jacket_MHXX02261B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "84",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Fog Lamp",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E3%83%95%E3%82%A9%E3%82%B0-%E3%83%A9%E3%83%B3%E3%83%97/1536768852?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/cb/50/decb506b-968c-3c0a-f012-7c6843c4879c/jacket_MHCL30070B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "85",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Libra",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/libra/1537075581?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/27/e7/88/27e788b9-99fe-5228-3168-ad9198a48f60/jacket_MHXX02260B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "86",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "The Best",
+      "artist": "Hideki Saijo",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "87",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Candies no Subete",
+      "artist": "Candies",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "88",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Hiromi Ota no Subete",
+      "artist": "Hiromi Ota",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3246.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "89",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "The 14th Moon",
+      "artist": "Yumi Arai",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/the-14th-moon-jyuyon-banme-no-tsuki/1436012327?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/5c/d0/ac5cd097-0a91-83da-17c6-052ee5e3f734/00602567988243.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/the-14th-moon-jyuyon-banme-no-tsuki/1436012327?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "90",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Best Hit Album",
+      "artist": "Pink Lady",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/best-hits-album/1635931425?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c6/58/df/c658df06-7557-93fa-ba4c-e4f1c5d5f82b/VICL-70266.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/best-hits-album/1635931425?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "91",
+      "sourcePhoto": "IMG_3246.jpg",
+      "title": "Memories",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%BA/1536776760?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/ca/98/b7ca98e1-89a3-1805-e9dd-4c4901876240/jacket_MHCL30147B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "92",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Best Hit Album",
+      "artist": "Mako Ishino",
+      "coverStatus": "retailer",
+      "coverSource": "https://ticro.com/en/products/i00001481",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://ticro.com/en/products/i00001481",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "93",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "The Best",
+      "artist": "Miyoko Asada",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "94",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "The Best: Kuchibiru yo, Atsuku Kimi o Katare",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "95",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Welcome to Yokosuka: Into My Heart",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/welcome-to-yokosuka-into-my-heart/1537076631?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/66/b2/b866b2b5-596f-1b52-08d5-4e0a59fe6380/jacket_MHXX02267B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "96",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Umi ni Tsurete Itte",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E6%B5%B7%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6%E3%81%84%E3%81%A3%E3%81%A6/1536768424?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/1f/fd/f61ffd01-77a8-78f2-6346-e1f3d38dd6f5/jacket_MHCL30069B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "97",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Peppermint",
+      "artist": "Hidemi Ishikawa",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "98",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Tooku Hanarete",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E9%81%A0%E3%81%8F%E9%9B%A2%E3%82%8C%E3%81%A6/1536776658?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/37/99/dd/3799dd4f-645a-a1a4-7769-c00e683824da/jacket_MHCL30146B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "99",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "Tokidoki Watashi wa…",
+      "artist": "Seri Ishikawa",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3247.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://www.universal-music.co.jp/ishikawa-seri/discography/cat/album/page/2/",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "100",
+      "sourcePhoto": "IMG_3247.jpg",
+      "title": "The Season in the Sun",
+      "artist": "TUBE",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/the-season-in-the-sun/1535481258?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/8f/49/788f492b-2a08-cc83-69f8-09ea1a0b2a32/jacket_AICL01452B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/the-season-in-the-sun/1535481258?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "101",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "First Finale",
+      "artist": "S. Kiyotaka & Omega Tribe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/first-finale/678093493?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/9c/8c/349c8cc9-999b-495c-155d-80cf8210bf79/4988021840088.png/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/first-finale/678093493?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "102",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Cobalt Hour",
+      "artist": "Yumi Arai",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/cobalt-hour/1436010473?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/98/7c/15/987c1554-b1dd-5e00-c74b-97090c16ce1e/00602567988236.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/cobalt-hour/1436010473?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "103",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Benisuzume",
+      "artist": "Yumi Matsutoya",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/linnet-beni-suzume/1436012400?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/82/69/4c826964-1ab3-6f80-f466-092b638e18eb/00602567988250.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/linnet-beni-suzume/1436012400?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "104",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Best: Umareta Toki kara",
+      "artist": "Chiemi Hori",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/best-%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%9F%E6%99%82%E3%81%8B%E3%82%89/1669411490?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f6/72/90/f672904b-e084-1102-598e-b5d2d3819ada/C40A_00398.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://omimi.biz/index.php/products/detail/59521",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "105",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Merry Xmas for You",
+      "artist": "Various Artists",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3248.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3248.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "106",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Candy Label",
+      "artist": "Candies",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3-%E3%83%AC%E3%83%BC%E3%83%99%E3%83%AB/1536934035?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/63/b9/c863b940-b947-f9ec-b2e3-a70957e2157f/jacket_MHXX01489B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3-%E3%83%AC%E3%83%BC%E3%83%99%E3%83%AB/1536934035?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "107",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Before the Diamond Dust Fades",
+      "artist": "Yumi Matsutoya",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/before-the-diamond-dust-fades-diamond-dust-ga-kienu-ma-ni/1436009867?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/59/eb/b059ebc2-5901-b59e-bf0b-5db12b002487/00602567988397.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/before-the-diamond-dust-fades-diamond-dust-ga-kienu-ma-ni/1436009867?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "108",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Katsudo Daishashin",
+      "artist": "Pink Lady",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/katsudo-daishashin-original-soundtrack/1489145538?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/4c/74/c54c7499-5408-0a26-5745-a5caebabf53b/VICL-62061.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/katsudo-daishashin-original-soundtrack/1489145538?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "109",
+      "sourcePhoto": "IMG_3248.jpg",
+      "title": "Voyager",
+      "artist": "Yumi Matsutoya",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/voyager/1436012984?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4b/d4/c0/4bd4c0a7-35de-c7ae-c008-87962c3fb6e8/00602567988359.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/voyager/1436012984?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "110",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Fog Lamp",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E3%83%95%E3%82%A9%E3%82%B0-%E3%83%A9%E3%83%B3%E3%83%97/1536768852?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/cb/50/decb506b-968c-3c0a-f012-7c6843c4879c/jacket_MHCL30070B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "111",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Haru Tsugedori",
+      "artist": "Momoe Yamaguchi",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E6%98%A5%E5%91%8A%E9%B3%A5/1536753841?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/d2/5c/00d25ce8-2b57-f321-e10f-61dd3bf0eb68/jacket_MHCL10073B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E6%98%A5%E5%91%8A%E9%B3%A5/1536753841?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "112",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Fantasy",
+      "artist": "Hiromi Iwasaki",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/fantasy/251327399?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/84/18/85/mzi.vvdvoojq.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/fantasy/251327399?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "113",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Umi ni Tsurete Itte",
+      "artist": "Machiko Watanabe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E6%B5%B7%E3%81%AB%E3%81%A4%E3%82%8C%E3%81%A6%E3%81%84%E3%81%A3%E3%81%A6/1536768424?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/1f/fd/f61ffd01-77a8-78f2-6346-e1f3d38dd6f5/jacket_MHCL30069B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.kiokunokiroku.jp/artist/000416",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "114",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Best Hits Circus",
+      "artist": "Circus",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3249.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3249.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "115",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Moderato",
+      "artist": "Yasuhiro Abe",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/moderato/720346864?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a7/aa/25/a7aa252d-9474-556f-ee4b-5f5d60bd0ca9/00094631387159.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/moderato/720346864?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "116",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Journey",
+      "artist": "Yasuko Agawa",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/journey-yasuko-love-bird/333475060?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/df/9b/62df9bf3-6bd4-698a-b0de-d99aea72f54c/mzi.gjdcmujt.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/journey-yasuko-love-bird/333475060?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "117",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Cobalt Hour",
+      "artist": "Yumi Arai",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/cobalt-hour/1436010473?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/98/7c/15/987c1554-b1dd-5e00-c74b-97090c16ce1e/00602567988236.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/cobalt-hour/1436010473?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "118",
+      "sourcePhoto": "IMG_3249.jpg",
+      "title": "Sugar Dream",
+      "artist": "Sugar",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3249.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3249.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "119",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Deja Vu",
+      "artist": "Miki Matsubara",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "120",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Love Sketch",
+      "artist": "Anli Sugano",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "121",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Elegance",
+      "artist": "Kei Marimura",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "122",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "The Man I Love",
+      "artist": "Kei Marimura",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "123",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "We Can Fall in Love",
+      "artist": "Kimiko Kasai",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/we-can-fall-in-love/6791567989?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/27/9a/71279ae9-2518-46d1-f3a0-044e88c9d3b8/4547366837902.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/we-can-fall-in-love/6791567989?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "124",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Faces: Tatsuhiko Singles",
+      "artist": "Tatsuhiko Yamamoto",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "125",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Greatest Hits! Of Tatsuro Yamashita",
+      "artist": "Tatsuro Yamashita",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3250.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "126",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Misslim",
+      "artist": "Yumi Arai",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/misslim/1436010441?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/misslim/1436010441?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "127",
+      "sourcePhoto": "IMG_3250.jpg",
+      "title": "Adlib",
+      "artist": "Kei Ishiguro",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/adlib/1304789616?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/06/d9/06/06d90647-7a23-c058-b3dd-feeedfb63e92/VICL-63004.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.hmv.co.jp/news/article/1008120060/",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "128",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Omoikiri American: I Love Poppin' World, Anri",
+      "artist": "Anri",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E6%80%9D%E3%81%84%E3%81%8D%E3%82%8A%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3i-love-poping-world-anri/844393212?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/5c/99/fb/5c99fbcd-96bb-25d2-dcf1-d01ec758462f/FLCF-29041.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E6%80%9D%E3%81%84%E3%81%8D%E3%82%8A%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3i-love-poping-world-anri/844393212?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "129",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Fashionable Lover",
+      "artist": "Hi-Fi Set",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%96%E3%83%AB-%E3%83%A9%E3%83%B4%E3%82%A1%E3%83%BC/1536764651?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/32/2f/75/322f75ae-9d68-4c7c-617b-ade333507d94/jacket_MHCL30029B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%96%E3%83%AB-%E3%83%A9%E3%83%B4%E3%82%A1%E3%83%BC/1536764651?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "130",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Enka no Tabi: Hibotan Bakuto",
+      "artist": "Keiko Fuji",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "131",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Akiko Wada (green blouse portrait sleeve)",
+      "artist": "Akiko Wada",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "132",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "The Best",
+      "artist": "Candies",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "133",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Best 24: Zenkyokushu",
+      "artist": "Midori Kinouchi",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "134",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "The Best / Again",
+      "artist": "Saori Minami",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://www.sonymusic.co.jp/Music/Info/cynthia/disco/album/a39.html",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "135",
+      "sourcePhoto": "IMG_3251.jpg",
+      "title": "Live '82: Osamatachi no Hiking in Budokan",
+      "artist": "Takuro Yoshida",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3251.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "136",
+      "sourcePhoto": "IMG_3252.jpg",
+      "title": "Tasogare Memory",
+      "artist": "Keiko Maruyama",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/tasogare-memory/1655086395?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8d/9a/4c/8d9a4cc1-08b1-077d-c7b0-1378e42f188c/NOPA-3989.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://www.stereo-records.com/detail.php?itemCd=88496",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "137",
+      "sourcePhoto": "IMG_3252.jpg",
+      "title": "Hit Zenkyokushu",
+      "artist": "Miyoko Asada",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3252.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3252.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "138",
+      "sourcePhoto": "IMG_3252.jpg",
+      "title": "Takeda no Komoriuta",
+      "artist": "The Red Birds (Akai Tori)",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/%E7%AB%B9%E7%94%B0%E3%81%AE%E5%AD%90%E5%AE%88%E5%94%84/1536765405?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8b/2e/23/8b2e23e3-ae93-8db0-a038-2b995613efb4/jacket_MHCL30033B00Z_550.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/%E7%AB%B9%E7%94%B0%E3%81%AE%E5%AD%90%E5%AE%88%E5%94%84/1536765405?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "139",
+      "sourcePhoto": "IMG_3252.jpg",
+      "title": "Reincarnation",
+      "artist": "Yumi Matsutoya",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/reincarnation/1436015852?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/12/65/fd/1265fd8c-2dcb-9256-a71c-1e6d347c9508/00602567988342.rgb.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/reincarnation/1436015852?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    },
+    {
+      "id": "140",
+      "sourcePhoto": "IMG_3253.jpg",
+      "title": "Title to verify (white kimono and moon sleeve)",
+      "artist": "Hibari Misora",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3253.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3253.jpg",
+      "unresolved": [
+        "Exact title needs a back-cover or label photo",
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "141",
+      "sourcePhoto": "IMG_3253.jpg",
+      "title": "Enka Daigekijo",
+      "artist": "Yuriko Futaba",
+      "coverStatus": "reference_photo",
+      "coverSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3253.jpg",
+      "artworkDownloadUrl": "",
+      "metadataSource": "https://github.com/richardmands/record_collection/blob/main/data/reference-photos/IMG_3253.jpg",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed",
+        "Release year unverified"
+      ]
+    },
+    {
+      "id": "142",
+      "sourcePhoto": "IMG_3253.jpg",
+      "title": "Saikai",
+      "artist": "Shinichi Mori",
+      "coverStatus": "official",
+      "coverSource": "https://music.apple.com/jp/album/saikai/1538372864?uo=4",
+      "artworkDownloadUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/bb/00/bebb008f-ea71-411d-6981-c42d19614fdc/VEATP-37995.jpg/1000x1000bb.jpg",
+      "metadataSource": "https://music.apple.com/jp/album/saikai/1538372864?uo=4",
+      "unresolved": [
+        "Exact pressing and catalogue number need label verification",
+        "Track list not yet transcribed"
+      ]
+    }
+  ]
+}

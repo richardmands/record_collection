@@ -1,4 +1,16 @@
-# Photo audit — 17 September 2026
+# Photo audits
+
+## 18 September 2026
+
+Thirteen additional photographs (IMG_3241–IMG_3253) add 101 separately owned records, collection IDs 42–142. The owner confirmed that the repeated Fog Lamp, Umi ni Tsurete Itte and Cobalt Hour sleeves represent additional physical copies. These pairs retain separate IDs, source photographs and copy notes.
+
+The batch uses 37 visually matched published covers (35 from label-supplied Apple Music artwork and two retailer images), plus 64 perspective-corrected reference crops. Published digital artwork identifies the cover design, not the exact vinyl pressing. All 101 crop coordinates are retained in cover-crops-2026-09-18.json; reproduce them with `python scripts/extract-reference-covers.py data/research/cover-crops-2026-09-18.json`. Original photos and unused fallback crops are retained for later review. The original 41 album entries and 448 track rows are preserved.
+
+photo-audit-2026-09-18.json records sources and open questions per copy. Album years come from cited release histories or original-era digital catalogue dates; modern reissue dates were not used as vinyl years. Track lists, copy condition, purchase prices and unidentified catalogue numbers are left unfilled. Photo-only descriptions are labelled Collection notes. Records 64, 66, 67, 72, 80, 131 and 140 still need clearer back-cover or label evidence to establish their exact titles; 57 and 70 need performer credits. No performer was assigned from facial resemblance alone.
+
+Corrections made during research include Kayama Yuzo Dori (75), Floating Music by Stomu Yamashta & Come to the Edge (76), Machiko Watanabe's Tooku Hanarete (98), Chiemi Hori's Best: Umareta Toki kara (104), Kei Ishiguro's Adlib (127), and Saori Minami's The Best / Again (134).
+
+## 17 September 2026
 
 The eleven originals in ../reference-photos are identification references. The owner subsequently authorised crops as artwork where clean matches remain unavailable. Position mappings and corrections are in photo-audit-2026-09-17.json; the workbook contains the resulting record and research notes.
 
