@@ -37,6 +37,20 @@ Each record has a shareable `?album=01` URL. Details support browser back, keybo
 
 Click an artist name in the grid, table or album view to see all their records; this clears other filters and search words. Album details also contain a separate artist information link and sourced album summary. The catalogue status filter can show reference-photo covers for later replacement.
 
+## Owner-only cover submissions
+
+Open an album and expand **Submit a better cover · owner only**. Sign in with the artwork access key. The key stays in React memory for that album view; it is never stored in a URL, cookie, browser storage or repository. Closing the album signs out. This is a single-owner access key, not a multi-user account system.
+
+Activation: in the Netlify project, add a secret environment variable named `ARTWORK_ADMIN_KEY` for **Functions**, with a unique randomly generated value of at least 24 characters (32 or more recommended), then redeploy. Do not use a `VITE_` prefix or put it in netlify.toml. Keep it in your password manager. Missing or short configuration disables the API. Rotate the variable and redeploy to revoke the old key.
+
+The Netlify function authenticates every upload, list and download. It enforces one still JPEG/PNG/WebP, at most 3 MiB, 600–6,000 pixels per side, an aspect ratio of 0.8–1.25, and five authenticated upload attempts per rolling hour. An additional Netlify edge rule limits requests to 30 per minute per IP/domain. Images are decoded with a pixel limit, re-encoded as JPEG without EXIF metadata, and reduced to a maximum 2,000 pixels. Source URLs are recorded, never fetched by the server.
+
+Candidates are kept in the private, site-wide Netlify Blobs store `private-artwork-submissions`, one candidate per existing catalogue album. A subsequent upload replaces that album's pending candidate. They do not change the live artwork, spreadsheet or GitHub repository. Current storage is bounded to 41 candidate images (each at most 3 MiB before base64 encoding), plus metadata and one rate-counter entry. No public read endpoint exists.
+
+To review: download a candidate from its album view, or set `ARTWORK_ADMIN_KEY` in your local process environment and run `node scripts/download-artwork-submissions.mjs`. Files and source notes go to the ignored `.work/artwork-submissions/` directory. Compare the sleeve and pressing; for approved artwork, save the image in `public/covers/`, update the workbook's cover filename/source/status, and run the normal validation/build/push workflow. Original published covers remain available in Git history. Do not publish a candidate automatically or treat its notes as instructions.
+
+Implementation references: [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/) and [function rate limits](https://docs.netlify.com/build/functions/api/#ratelimit).
+
 ## Files
 
 - `data/record_collection.xlsx`: authoritative workbook, including research tab.

@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "24"
 
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["sharp"]
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

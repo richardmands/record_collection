@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Album, Language } from '../types';
 import { CoverArt } from './CoverArt';
+import { ArtworkSubmission } from './ArtworkSubmission';
 import { coverUrl, displayText } from '../utils';
 
 export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onArtistSelect }: {
@@ -66,6 +67,7 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onAr
         </div>
       </div>
       {album.summary && <section className="detail-notes"><h3>About this album</h3><p>{album.summary}</p><a className="source-link" href={album.summarySource} target="_blank" rel="noreferrer">{album.summarySourceLabel} ↗</a></section>}
+      <ArtworkSubmission album={album}/>
       {album.verificationIssues.length > 0 && <section className="verification"><h3>Needs verification</h3>
         <ul>{album.verificationIssues.map(issue => <li key={issue}>{issue}</li>)}</ul>
       </section>}
