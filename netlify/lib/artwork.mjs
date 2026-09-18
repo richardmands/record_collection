@@ -62,7 +62,7 @@ export function createArtworkHandler({getStore, albums, getSecret=()=>process.en
   return async request => {
     try {
       const secret=getSecret();
-      if(!secret || secret.length<24) return json({error:'Owner uploads have not been activated yet.'},503);
+      if(!secret || secret.length<24) return json({error:'Set ARTWORK_ADMIN_KEY to a random value of at least 24 characters in Netlify Functions, then redeploy.'},503);
       const bearer=request.headers.get('authorization') || '';
       if(!bearer.startsWith('Bearer ') || bearer.length>512 || !timingSafeEqual(hash(bearer.slice(7)),hash(secret))) return json({error:'The owner access key is incorrect.'},401);
       const url=new URL(request.url);
