@@ -3,8 +3,10 @@
     "id": "06",
     "artist": "Harumi Miyako",
     "title": "Nagashiuta / Miryoku no Subete",
-    "reason": "Searches did not establish an unambiguous album/programme match; back-cover or label photo would resolve title and tracks.",
-    "sources": [],
+    "reason": "User supplied Snow Records listing: Harumi Miyako / Miryoku no Subete (魅力のすべて), Columbia ALW-46-7, Japan, stereo 2 × 12-inch LP. The listing leaves the year blank. Compare its sleeve and programme with the physical record before assigning a Discogs release; catalogue number is a source candidate, not yet verified on the owned copy.",
+    "sources": [
+      "https://www.snowrecords.jp/?pid=180630709"
+    ],
     "searches": [
       {
         "pass": "discogs-search",
