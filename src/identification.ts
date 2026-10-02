@@ -1,5 +1,8 @@
 import research from '../data/research/retail-research.json';
+import unresolved from '../data/research/discogs-unresolved.json';
 import type { Album } from './types';
+
+export const needsIdentificationCount = unresolved.filter(album => !research.some(row => row.id === album.id && row.status === 'Cover matched')).length;
 
 // Retailer evidence supplements the original photo catalogue independently of Discogs.
 export function withIdentification(album: Album): Album {
