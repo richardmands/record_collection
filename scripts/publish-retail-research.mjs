@@ -31,5 +31,7 @@ const output=searches.map(s=>{
  return {id:s.id,searchedAt:'2026-10-02',query:s.query,searchUrl:s.url,status:['57','132','140'].includes(s.id)?'Candidate rejected':imageMatched.has(s.id)?'Cover matched':pid?'Possible album match':'No specific album match',note:facts[s.id]||(['64','66','67','72'].includes(s.id)?'The sleeve has too little readable identifying text for a reliable text search. No artist identity inferred from the portrait.':'Searched Japanese titles and available details on Snow Records and in indexed Snow Records/Qoo10 results. No sufficiently specific listing established.'),sources:url?[url]:[],images:details?.images||[],programme:s.id==='43'?programme43:[]};
 });
 output.find(x=>x.id==='37').sources.push('https://www.qoo10.jp/gmkt.inc/Mobile/Goods/Goods.aspx?goodscode=1165574978');
+const saved=read('data/research/retail-research.json');
+for(const row of saved.filter(r=>r.ownerSubmitted || r.id==='68' || r.sources.some(url=>!url.includes('snowrecords.jp') && !url.includes('qoo10.jp')))){const i=output.findIndex(r=>r.id===row.id);if(i>=0)output[i]=row;}
 fs.writeFileSync('data/research/retail-research.json',JSON.stringify(output,null,2)+'\n');
 console.log(`${output.length} researched; ${output.filter(x=>x.sources.length).length} specific leads; ${output.filter(x=>x.status==='Cover matched').length} covers matched.`);

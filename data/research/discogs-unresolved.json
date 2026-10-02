@@ -883,25 +883,6 @@
     ]
   },
   {
-    "id": "77",
-    "artist": "Stomu Yamashta",
-    "title": "Red Buddha Theatre: The Man from the East",
-    "reason": "Searches did not establish an unambiguous album/programme match; back-cover or label photo would resolve title and tracks.",
-    "sources": [],
-    "searches": [
-      {
-        "pass": "discogs-search",
-        "total": 0,
-        "candidates": []
-      },
-      {
-        "pass": "discogs-search-deep",
-        "total": 0,
-        "candidates": []
-      }
-    ]
-  },
-  {
     "id": "78",
     "artist": "Akira Kobayashi",
     "title": "Hit Parade 1",
@@ -1004,97 +985,6 @@
         "pass": "discogs-search-deep",
         "total": 0,
         "candidates": []
-      }
-    ]
-  },
-  {
-    "id": "87",
-    "artist": "Candies",
-    "title": "Candies no Subete",
-    "reason": "Searches did not establish an unambiguous album/programme match; back-cover or label photo would resolve title and tracks.",
-    "sources": [],
-    "searches": [
-      {
-        "pass": "discogs-search",
-        "total": 2,
-        "candidates": [
-          {
-            "title": "Various - Hit Pops = ヒット・ポップスのすべて",
-            "url": "https://www.discogs.com/release/12934757",
-            "catalogue": "38AH 221～2"
-          },
-          {
-            "title": "Various - Golden Hit Pops '77 = ゴールデン・ヒット・ポップス '77",
-            "url": "https://www.discogs.com/release/26703269",
-            "catalogue": "25AH 131"
-          }
-        ]
-      },
-      {
-        "pass": "discogs-search-deep",
-        "total": 0,
-        "candidates": []
-      }
-    ]
-  },
-  {
-    "id": "88",
-    "artist": "Hiromi Ota",
-    "title": "Hiromi Ota no Subete",
-    "reason": "Searches did not establish an unambiguous album/programme match; back-cover or label photo would resolve title and tracks.",
-    "sources": [],
-    "searches": [
-      {
-        "pass": "discogs-search",
-        "total": 12,
-        "candidates": [
-          {
-            "title": "Yasunori Mitsuda, Shunsuke Tsuchiya - TV Animation “Delicious In Dungeon” Original Soundtrack -Analog Best-",
-            "url": "https://www.discogs.com/release/35875360",
-            "catalogue": "ZMCZ-18191"
-          },
-          {
-            "title": "フジファブリック* - Teenager",
-            "url": "https://www.discogs.com/release/13293250",
-            "catalogue": "UPJY-9040/1"
-          },
-          {
-            "title": "Various - Hit Pops = ヒット・ポップスのすべて",
-            "url": "https://www.discogs.com/release/12934757",
-            "catalogue": "38AH 221～2"
-          },
-          {
-            "title": "宮川泰* - 宇宙戦艦ヤマト 新たなる旅立ち 音楽集",
-            "url": "https://www.discogs.com/release/4471072",
-            "catalogue": "CQ-7029"
-          }
-        ]
-      },
-      {
-        "pass": "discogs-search-deep",
-        "total": 12,
-        "candidates": [
-          {
-            "title": "Various - Hit Pops = ヒット・ポップスのすべて",
-            "url": "https://www.discogs.com/release/12934757",
-            "catalogue": "38AH 221～2"
-          },
-          {
-            "title": "Yasunori Mitsuda, Shunsuke Tsuchiya - TV Animation “Delicious In Dungeon” Original Soundtrack -Analog Best-",
-            "url": "https://www.discogs.com/release/35875360",
-            "catalogue": "ZMCZ-18191"
-          },
-          {
-            "title": "フジファブリック* - Teenager",
-            "url": "https://www.discogs.com/release/13293250",
-            "catalogue": "UPJY-9040/1"
-          },
-          {
-            "title": "宮川泰* - 宇宙戦艦ヤマト 新たなる旅立ち 音楽集",
-            "url": "https://www.discogs.com/release/4471072",
-            "catalogue": "CQ-7029"
-          }
-        ]
       }
     ]
   },

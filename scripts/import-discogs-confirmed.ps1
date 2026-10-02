@@ -1,3 +1,4 @@
+param([string]$OnlyRecordId = '')
 # Explicit reviewed batch. Never retry an uncertain POST automatically.
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
@@ -26,6 +27,7 @@ try {
  $occurrences=@{}
  foreach($property in @($reviewed.psobject.Properties | Sort-Object {[int]$_.Name})){
   $id=$property.Name;$releaseId=$property.Value
+  if($OnlyRecordId -and $id -ne $OnlyRecordId){continue}
   $occurrences[$releaseId]=1+$occurrences[$releaseId]
   if(@($existing | Where-Object {$_.id -eq $releaseId}).Count -ge $occurrences[$releaseId]){Write-Host "Already present: record $id";continue}
   if(@($ledger | Where-Object {$_.albumId -eq $id}).Count -gt 0){throw 'Previous attempt requires reconciliation'}

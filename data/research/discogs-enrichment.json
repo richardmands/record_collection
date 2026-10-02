@@ -3937,6 +3937,60 @@
     ],
     "retrievedAt": "2026-10-02"
   },
+  "77": {
+    "releaseId": 14259666,
+    "url": "https://www.discogs.com/release/14259666",
+    "title": "The Soundtrack From \"The Man From The East\"",
+    "year": 1973,
+    "country": "Japan",
+    "labels": [
+      "Island Records (ICL-51)"
+    ],
+    "genres": [
+      "Jazz",
+      "Rock",
+      "Stage & Screen"
+    ],
+    "styles": [
+      "Soundtrack",
+      "Fusion",
+      "Avantgarde",
+      "Experimental"
+    ],
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Sunrise",
+        "duration": "2:50"
+      },
+      {
+        "position": "A2",
+        "title": "My Little Friend",
+        "duration": "4:00"
+      },
+      {
+        "position": "A3",
+        "title": "What A Way To Live In Modern Times",
+        "duration": "10:00"
+      },
+      {
+        "position": "A4",
+        "title": "Mountain Pass",
+        "duration": "3:35"
+      },
+      {
+        "position": "B1",
+        "title": "Mandala",
+        "duration": "11:35"
+      },
+      {
+        "position": "B2",
+        "title": "Memory Of Hiroshima",
+        "duration": "8:40"
+      }
+    ],
+    "retrievedAt": "2026-10-02"
+  },
   "79": {
     "releaseId": 7391479,
     "url": "https://www.discogs.com/release/7391479",
@@ -4458,6 +4512,228 @@
       {
         "position": "B5",
         "title": "Dream",
+        "duration": ""
+      }
+    ],
+    "retrievedAt": "2026-10-02"
+  },
+  "87": {
+    "releaseId": 14336015,
+    "url": "https://www.discogs.com/release/14336015",
+    "title": "Best Of Best",
+    "year": 1976,
+    "country": "Japan",
+    "labels": [
+      "CBS/Sony (38AH 11~12)"
+    ],
+    "genres": [
+      "Pop"
+    ],
+    "styles": [
+      "Kayōkyoku"
+    ],
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "年下の男の子",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "title": "そよ風のくちづけ",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "title": "恋の作戦",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "title": "Paper Plane Love",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "title": "朝のひとりごと",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "title": "春一番",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "title": "その気にさせないで",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "title": "風",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "title": "なみだの季節",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "title": "小さな悪魔",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "title": "想い出のグリーンテラス",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "title": "グリーングリーン",
+        "duration": ""
+      },
+      {
+        "position": "A1",
+        "title": "ハートのエースが出てこない",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "title": "雨と涙とあのひとと",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "title": "二人のラブ・トレイン",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "title": "危ない土曜日",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "title": "くちづけのあと",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "title": "あなたに夢中",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "title": "内気なあいつ",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "title": "盗まれたくちづけ",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "title": "片思いの午後",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "title": "シュガー・ベイビー・ラブ",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "title": "コットン・フィールズ",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "title": "黄色いビキニ",
+        "duration": ""
+      }
+    ],
+    "retrievedAt": "2026-10-02"
+  },
+  "88": {
+    "releaseId": 6473001,
+    "url": "https://www.discogs.com/release/6473001",
+    "title": "Best Of Best / 太田裕美の全て",
+    "year": 1976,
+    "country": "Japan",
+    "labels": [
+      "CBS/Sony (25AH 25)"
+    ],
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Kayōkyoku",
+      "Folk Rock",
+      "Ballad",
+      "Vocal"
+    ],
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "木綿のハンカチーフ",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "title": "ひぐらし",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "title": "水車",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "title": "銀河急行に乗って",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "title": "回転木馬",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "title": "夕焼け",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "title": "雨だれ",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "title": "心さわぎ",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "title": "レモンティー",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "title": "妹",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "title": "夏の扉",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "title": "たんぽぽ",
         "duration": ""
       }
     ],
