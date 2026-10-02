@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import unresolved from '../../data/research/discogs-unresolved.json';
+import retailResearch from '../../data/research/retail-research.json';
 import type { Collection } from '../types';
 import { coverUrl } from '../utils';
 import './ResearchPage.css';
@@ -45,6 +46,7 @@ export function ResearchPage() {
     {!collection && !error && <p role="status">Loading covers and details…</p>}
     <div className="research-grid">{visible.map(record => {
       const album = collection?.albums.find(a => a.id === record.id);
+      const retail = retailResearch.find(r => r.id === record.id);
       const search = [album?.artistJa || record.artist, album?.titleJa || record.title, album?.catalogNumber].filter(Boolean).join(' ');
       const candidates = [...new Map(record.searches.flatMap(s => s.candidates).map(c => [c.url, c])).values()];
       return <article key={record.id} className="research-card">
@@ -54,6 +56,7 @@ export function ResearchPage() {
         {album && <><p lang="ja">{album.artistJa} · {album.titleJa}</p><dl>{[['Year', album.year], ['Label', album.label], ['Catalogue', album.catalogNumber], ['Format', album.format], ['Country', album.country]].map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value || 'Unknown'}</dd></div>)}</dl>{album.notes && <p>{album.notes}</p>}</>}
         <nav aria-label={`Search for record ${record.id}`}><a target="_blank" rel="noreferrer" href={`https://www.google.co.jp/search?q=${encodeURIComponent(search)}`}>Search Google Japan ↗</a><a target="_blank" rel="noreferrer" href={`https://www.discogs.com/search/?q=${encodeURIComponent(search)}&type=release`}>Search Discogs ↗</a><a href={`/?album=${record.id}`} target="_blank" rel="noreferrer">Album view ↗</a></nav>
         {record.sources.length > 0 && <div><strong>Sources you found</strong>{record.sources.map(source => <p key={source}><a href={source} target="_blank" rel="noreferrer">Open reference listing ↗</a></p>)}</div>}
+        {retail && <section aria-label="Retailer research"><h3>Snow Records / Qoo10 research</h3><small>{retail.status} · {retail.searchedAt}</small><p>{retail.note}</p>{retail.sources.map((source,i)=><p key={source}><a href={source} target="_blank" rel="noreferrer">{source.includes('qoo10')?'Qoo10':'Snow Records'} listing {i+1} ↗</a></p>)}<a href={retail.searchUrl} target="_blank" rel="noreferrer">See Snow Records search results ↗</a>{retail.images.length>0&&<details><summary>Sleeve and label images ({retail.images.length})</summary>{retail.images.map((url,i)=><a key={url} href={url} target="_blank" rel="noreferrer"><img src={url} alt={`Retailer reference image ${i+1} for record ${record.id}`} loading="lazy" /><span>Enlarge reference image {i+1} ↗</span></a>)}</details>}{retail.programme.length>0&&<details><summary>Titles read from the back cover ({retail.programme.length})</summary><p>Song titles only; side assignments and playing order are not yet verified.</p><ul>{retail.programme.map(title=><li key={title} lang="ja">{title}</li>)}</ul></details>}</section>}
         <details><summary>Research notes and possible matches ({candidates.length})</summary><p>{record.reason}</p>{candidates.map(c => <p key={c.url}><a href={c.url} target="_blank" rel="noreferrer">{c.title}</a> · {c.catalogue || 'No catalogue number'}</p>)}</details>
         {album && <details><summary>Known track list ({album.tracks.length})</summary>{album.tracks.length ? <ol>{album.tracks.map((t, i) => <li key={i}>{t.side}{t.number} · {t.titleJa || t.titleEn}{t.titleJa && t.titleEn ? ` / ${t.titleEn}` : ''}</li>)}</ol> : <p>No tracks recorded yet.</p>}</details>}
         <label>Link you found<input type="url" maxLength={2000} placeholder="https://…" value={answers[record.id]?.url || ''} onChange={e => update(record.id, 'url', e.target.value)} /></label><label>Your notes<textarea rows={3} maxLength={4000} placeholder="Correct title, artist, year, or anything useful…" value={answers[record.id]?.notes || ''} onChange={e => update(record.id, 'notes', e.target.value)} /></label>
