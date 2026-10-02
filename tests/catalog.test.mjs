@@ -76,10 +76,18 @@ test('language preference falls back when a translation is missing',()=>{
  assert.deepEqual(displayText('Hello','こんにちは','ja'),['こんにちは','Hello']);
  assert.deepEqual(displayText('','こんにちは','en'),['こんにちは','']);
 });
+test('duplicate copies stay adjacent within artist and year',()=>{
+ const records=['110','113','84','96'].map(id=>collection.albums.find(a=>a.id===id));
+ for(const key of ['artistEn','artistJa','year']) {
+  const sorted=sortAlbums(records,key);
+  assert.deepEqual(sorted.map(a=>a.id),['84','110','96','113']);
+ }
+ assert.deepEqual(records.map(a=>a.id),['110','113','84','96']);
+});
 test('both artist sorts put each artist’s albums in year order, with unknown years last',()=>{
  for (const key of ['artistEn','artistJa']) {
   const sorted=sortAlbums(collection.albums,key);
-  assert.deepEqual(sorted.filter(a=>a.artistEn==='Harumi Miyako').map(a=>a.id),['01','08','07','33','06','24']);
+  assert.deepEqual(sorted.filter(a=>a.artistEn==='Harumi Miyako').map(a=>a.id),['01','08','07','33','24','06']);
   assert.deepEqual(sorted.filter(a=>a.artistEn==='Ayumi Ishida').map(a=>a.id),['28','23']);
  }
 });

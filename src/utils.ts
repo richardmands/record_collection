@@ -22,13 +22,14 @@ export function parseYear(year: string | undefined): number | null {
 
 export function sortAlbums(albums: Album[], key: SortKey): Album[] {
   const copy = [...albums];
+  const byTitle = (a: Album, b: Album) => normalizeSearch(a.titleEn || a.titleJa || '').localeCompare(normalizeSearch(b.titleEn || b.titleJa || ''), 'en') || a.id.localeCompare(b.id, 'en', { numeric: true });
   const byYear = (a: Album, b: Album) => {
     const ya = parseYear(a.year);
     const yb = parseYear(b.year);
-    if (ya === null && yb === null) return a.id.localeCompare(b.id);
+    if (ya === null && yb === null) return byTitle(a, b);
     if (ya === null) return 1;
     if (yb === null) return -1;
-    return ya - yb || a.id.localeCompare(b.id);
+    return ya - yb || byTitle(a, b);
   };
   copy.sort((a, b) => {
     if (key === 'year') {
