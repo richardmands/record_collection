@@ -124,7 +124,7 @@ function App() {
       <div className="brand"><span className="brand__disc" aria-hidden="true" /><div>
         <p className="brand__eyebrow">Richard’s collection</p><h1 className="brand__title">Japanese Vinyl</h1>
       </div></div>
-      <p className="site-tagline">A personal collection, one record at a time.<br /><a href="/?view=research">Help identify {needsIdentificationCount} records</a></p>
+      <p className="site-tagline">A personal collection, one record at a time.<br /><a href="/?view=research">Help identify {needsIdentificationCount} records</a> · <a href="/?view=photos">Label photo checklist</a></p>
     </div></header>
     <main className="site-main" ref={mainRef}>
       <div className="collection-intro"><div><p className="eyebrow">THE RECORD SHELVES</p><h2 ref={headingRef} tabIndex={-1}>{filters.artist || 'Find your next listen.'}</h2></div>

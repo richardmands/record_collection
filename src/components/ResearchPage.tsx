@@ -42,6 +42,7 @@ export function ResearchPage() {
   return <main className="research-page">
     <a href="/">← Back to collection</a>
     <h1>Help identify these records</h1>
+    <p><a href="/?view=photos">Record label photo checklist, with covers ↗</a></p>
     <p>{unresolved.length - identified.size} records still need identification. {identified.size} are identified from retailer sleeves and listings, but are not linked to Discogs. Missing details can still be researched for identified albums. A matching album is enough; the exact pressing can differ.</p>
     <label><input type="checkbox" checked={includeIdentified} onChange={e => setIncludeIdentified(e.target.checked)} /> Include identified albums with missing details or no Discogs link</label>
     <p>Your entries save in this browser on this device. They aren’t submitted automatically. When ready, download your links and attach the file in our chat.</p>
