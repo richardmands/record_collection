@@ -68,6 +68,16 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onAr
         </div>
       </div>
       {album.summary && <section className="detail-notes"><h3>About this album</h3><p>{album.summary}</p><a className="source-link" href={album.summarySource} target="_blank" rel="noreferrer">{album.summarySourceLabel} ↗</a></section>}
+      {album.discogs && <section className="detail-notes"><h3>From Discogs</h3>
+        <p>Album reference for your collection. The edition may differ from your physical copy.</p>
+        <dl className="detail-facts">
+          <div><dt>Reference release year</dt><dd>{album.discogs.year || 'Not listed'}</dd></div>
+          <div><dt>Label and catalogue</dt><dd>{album.discogs.labels.join(' · ') || 'Not listed'}</dd></div>
+          <div><dt>Country</dt><dd>{album.discogs.country || 'Not listed'}</dd></div>
+          <div><dt>Genres and styles</dt><dd>{[...album.discogs.genres,...album.discogs.styles].join(' · ') || 'Not listed'}</dd></div>
+        </dl><a href={album.discogs.url} target="_blank" rel="noreferrer">Discogs album and track information ↗</a>
+        <p className="muted">Retrieved {album.discogs.retrievedAt}</p>
+      </section>}
       <ArtworkSubmission album={album}/>
       <DetailsSubmission album={album}/>
       {album.verificationIssues.length > 0 && <section className="verification"><h3>Needs verification</h3>
@@ -77,7 +87,8 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onAr
       <section className="detail-notes"><h3>My copy</h3><dl className="detail-facts">{copyFacts.map(([name,value]) => <div key={name}><dt>{name}</dt><dd>{value || 'Not recorded'}</dd></div>)}</dl></section>
       {album.researchNotes && <details className="research-notes"><summary>Identification and research notes</summary><p>{album.researchNotes}</p></details>}
       <section className="detail-tracks"><h3>Track listing</h3>
-        {!sideNames.length && <p className="muted">Track listing not yet recorded.</p>}
+        {!sideNames.length && !album.discogs?.tracks.length && <p className="muted">Track listing not yet recorded.</p>}
+        {!sideNames.length && !!album.discogs?.tracks.length && <><p className="muted">Track listing from the linked Discogs album reference.</p><ol className="track-list">{album.discogs.tracks.map((track,index)=><li key={index}><span className="track-num">{track.position || index+1}</span><span className="track-titles">{track.title}</span>{track.duration && <span className="track-dur">{track.duration}</span>}</li>)}</ol></>}
         <div className="sides-grid">{sideNames.map(side => <div className="side-block" key={side}><h4 className="side-label">Side {side}</h4>
           <ol className="track-list">{album.tracks.filter(t => (t.side || '?') === side).sort((a,b) => Number(a.number)-Number(b.number)).map(t => {
             const [name,other] = displayText(t.titleEn,t.titleJa,language);

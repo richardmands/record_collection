@@ -7,6 +7,7 @@ export interface Track {
 }
 
 export interface Album {
+  discogs?: {releaseId:number;url:string;title:string;year:number|null;country:string;labels:string[];genres:string[];styles:string[];tracks:{position:string;title:string;duration:string}[];retrievedAt:string};
   id: string;
   artistJa: string;
   artistEn: string;

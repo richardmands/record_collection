@@ -31,6 +31,16 @@ Do not edit the generated CSV or JSON files independently. `npm run check-data` 
 
 ## Browsing
 
+## Discogs album references
+
+The owner accepts an album-level Discogs match: artist, title and programme matter; exact pressing, export status and vinyl colour do not. Physical copies remain separate, including duplicate albums. Vinyl and CD formats remain distinct. Unknown titles and ambiguous compilations must not be guessed.
+
+`data/research/discogs-matches.json` maps collection IDs to reviewed representative releases. `data/research/discogs-enrichment.json` contains public Discogs metadata, displayed separately from the authoritative workbook's copy information. Reference release dates are explicitly labelled, and imported track lists fill the album view where the workbook has none. Source links and retrieval dates remain visible. Existing workbook values are not overwritten with a different edition's data.
+
+Windows PowerShell (`powershell.exe`) runs the Discogs scripts. `scripts/connect-discogs.ps1` accepts a hidden token and stores it with Windows DPAPI in ignored `.work/`. Never commit tokens or pass them on the command line. `audit-discogs.ps1` reads existing collection entries, `search-discogs.ps1` discovers candidates, and `fetch-discogs-matches.ps1` caches reviewed release details. `node scripts/build-discogs-enrichment.mjs` prepares public metadata. `import-discogs-confirmed.ps1` imports only the reviewed mapping, preserves existing entries and duplicate-copy counts, and records each attempted POST before sending it. An interrupted/uncertain write requires remote reconciliation before retrying; never blindly retry a POST.
+
+Private collection responses and import receipts stay in `.work/`; only public release metadata and matching decisions belong in Git. Search results are candidates, not automatic approvals.
+
 Search across English/Japanese artists, titles, tracks and catalogue numbers; combine words in any order. Filter by artist, decade, genre, label, format or unresolved catalogue work. Switch between cover grid and table, choose the primary display language, and reverse sorting. View and language preferences stay on the device.
 
 Each record has a shareable `?album=01` URL. Details support browser back, keyboard Escape, previous/next within the current results, artwork enlargement, source links, research notes and copy details.
