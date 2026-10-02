@@ -78,6 +78,7 @@ export function AlbumDetail({ album, language, onClose, onPrevious, onNext, onAr
         </dl><a href={album.discogs.url} target="_blank" rel="noreferrer">Discogs album and track information ↗</a>
         <p className="muted">Retrieved {album.discogs.retrievedAt}</p>
       </section>}
+      {album.identification && <section className="detail-notes"><h3>{album.discogs ? 'Identified' : album.identification.status}</h3><p>{album.identification.note}</p>{album.identification.sources.map(url => <p key={url}><a href={url} target="_blank" rel="noreferrer">Retailer identification source ↗</a></p>)}{album.identification.programme.length > 0 && <><h4>Song titles from the back cover</h4><p>Side assignments and playing order are not yet verified.</p><ul>{album.identification.programme.map(title => <li key={title} lang="ja">{title}</li>)}</ul></>}</section>}
       <ArtworkSubmission album={album}/>
       <DetailsSubmission album={album}/>
       {album.verificationIssues.length > 0 && <section className="verification"><h3>Needs verification</h3>

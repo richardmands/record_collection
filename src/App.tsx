@@ -5,6 +5,7 @@ import type { Album, Collection, Language, SortKey } from './types';
 import { decade, displayText, genres, matchesSearch, sortAlbums } from './utils';
 import './App.css';
 import discogsDetails from '../data/research/discogs-enrichment.json';
+import { withIdentification } from './identification';
 
 function preference(key: string, fallback: string) {
   try { return localStorage.getItem(key) || fallback; } catch { return fallback; }
@@ -32,7 +33,7 @@ function App() {
     const controller = new AbortController();
     fetch('/data/collection.json', { signal: controller.signal })
       .then((res) => { if (!res.ok) throw new Error('Could not load the collection. Please try again.'); return res.json(); })
-      .then((data:Collection)=>setCollection({...data,albums:data.albums.map(album=>({...album,discogs:(discogsDetails as Record<string,Album['discogs']>)[album.id]}))}))
+      .then((data:Collection)=>setCollection({...data,albums:data.albums.map(album=>({...withIdentification(album),discogs:(discogsDetails as Record<string,Album['discogs']>)[album.id]}))}))
       .catch((e: Error) => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, []);

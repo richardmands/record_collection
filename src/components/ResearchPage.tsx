@@ -4,6 +4,7 @@ import retailResearch from '../../data/research/retail-research.json';
 import type { Collection } from '../types';
 import { coverUrl } from '../utils';
 import './ResearchPage.css';
+import { withIdentification } from '../identification';
 
 type Answer = { url: string; notes: string };
 const storageKey = 'records-research-links-v1';
@@ -16,6 +17,7 @@ export function ResearchPage() {
   const [answers, setAnswers] = useState(savedAnswers);
   const [query, setQuery] = useState('');
   const [onlyRemaining, setOnlyRemaining] = useState(false);
+  const [includeIdentified, setIncludeIdentified] = useState(false);
   const [storageError, setStorageError] = useState(false);
   useEffect(() => {
     document.title = 'Help identify records · Richard’s Records';
@@ -34,25 +36,28 @@ export function ResearchPage() {
     const link = document.createElement('a'); link.href = url; link.download = 'richards-records-research-links.json'; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
   const count = unresolved.filter(r => answers[r.id]?.url?.trim()).length;
-  const visible = unresolved.filter(r => (!onlyRemaining || !answers[r.id]?.url?.trim()) && `${r.id} ${r.artist} ${r.title}`.toLowerCase().includes(query.toLowerCase()));
+  const identified = new Set(retailResearch.filter(r => r.status === 'Cover matched').map(r => r.id));
+  const visible = unresolved.filter(r => (includeIdentified || !identified.has(r.id)) && (!onlyRemaining || !answers[r.id]?.url?.trim()) && `${r.id} ${r.artist} ${r.title}`.toLowerCase().includes(query.toLowerCase()));
   return <main className="research-page">
     <a href="/">← Back to collection</a>
     <h1>Help identify these records</h1>
-    <p>35 records need a Discogs match. Compare the cover and track list, then add any useful link or notes. A matching album is enough; the exact pressing can differ.</p>
+    <p>{unresolved.length - identified.size} records still need identification. {identified.size} are identified from retailer sleeves and listings, but are not linked to Discogs. Missing details can still be researched for identified albums. A matching album is enough; the exact pressing can differ.</p>
+    <label><input type="checkbox" checked={includeIdentified} onChange={e => setIncludeIdentified(e.target.checked)} /> Include identified albums with missing details or no Discogs link</label>
     <p>Your entries save in this browser on this device. They aren’t submitted automatically. When ready, download your links and attach the file in our chat.</p>
     <div className="research-tools"><label>Find a record<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Artist, title or ID" /></label><label><input type="checkbox" checked={onlyRemaining} onChange={e => setOnlyRemaining(e.target.checked)} /> Only records without a link</label><button onClick={download}>Download my links ({count}/35)</button></div>
     {storageError && <p role="alert">This browser couldn’t save your entries. Download your links before closing this page.</p>}
     {error && <p role="alert">{error}</p>}
     {!collection && !error && <p role="status">Loading covers and details…</p>}
     <div className="research-grid">{visible.map(record => {
-      const album = collection?.albums.find(a => a.id === record.id);
+      const original = collection?.albums.find(a => a.id === record.id);
+      const album = original && withIdentification(original);
       const retail = retailResearch.find(r => r.id === record.id);
       const search = [album?.artistJa || record.artist, album?.titleJa || record.title, album?.catalogNumber].filter(Boolean).join(' ');
       const candidates = [...new Map(record.searches.flatMap(s => s.candidates).map(c => [c.url, c])).values()];
       return <article key={record.id} className="research-card">
         {album?.coverImage && <a href={coverUrl(album.coverImage)!} target="_blank" rel="noreferrer" aria-label={`Enlarge cover for record ${record.id}`}><img className="research-cover" src={coverUrl(album.coverImage)!} alt={`${record.artist}: ${record.title}`} loading="lazy" /></a>}
-        <div className="research-content"><small>Record {record.id}{answers[record.id]?.url?.trim() ? ' · Link saved' : ''}</small><h2>{record.title}</h2><p>{record.artist}</p>
-        {record.id === '119' && <p className="research-hint">Possible correction: the artist may be Marlene rather than Miki Matsubara.</p>}
+        <div className="research-content"><small>Record {record.id} · {identified.has(record.id) ? 'Identified · not linked to Discogs' : 'Needs identification'}{answers[record.id]?.url?.trim() ? ' · Link saved' : ''}</small><h2>{record.title}</h2><p>{album?.artistEn || record.artist}</p>
+        {record.id === '119' && <p className="research-hint">Artist corrected to Marlene from the matching retailer sleeve.</p>}
         {album && <><p lang="ja">{album.artistJa} · {album.titleJa}</p><dl>{[['Year', album.year], ['Label', album.label], ['Catalogue', album.catalogNumber], ['Format', album.format], ['Country', album.country]].map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value || 'Unknown'}</dd></div>)}</dl>{album.notes && <p>{album.notes}</p>}</>}
         <nav aria-label={`Search for record ${record.id}`}><a target="_blank" rel="noreferrer" href={`https://www.google.co.jp/search?q=${encodeURIComponent(search)}`}>Search Google Japan ↗</a><a target="_blank" rel="noreferrer" href={`https://www.discogs.com/search/?q=${encodeURIComponent(search)}&type=release`}>Search Discogs ↗</a><a href={`/?album=${record.id}`} target="_blank" rel="noreferrer">Album view ↗</a></nav>
         {record.sources.length > 0 && <div><strong>Sources you found</strong>{record.sources.map(source => <p key={source}><a href={source} target="_blank" rel="noreferrer">Open reference listing ↗</a></p>)}</div>}
