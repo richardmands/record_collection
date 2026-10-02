@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { AlbumCard } from './components/AlbumCard';
 import { AlbumDetail } from './components/AlbumDetail';
 import type { Album, Collection, Language, SortKey } from './types';
-import { decade, displayText, genres, matchesSearch, sortAlbums } from './utils';
+import { decade, displayText, genres, matchesSearch, sortAlbums, uniqueEditions } from './utils';
 import './App.css';
 import discogsDetails from '../data/research/discogs-enrichment.json';
 import { withIdentification } from './identification';
@@ -27,7 +27,7 @@ function App() {
   const mainRef = useRef<HTMLElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const artistNavigation = useRef(false);
-  const albums = useMemo(() => collection?.albums || [], [collection]);
+  const albums = useMemo(() => uniqueEditions(collection?.albums || []), [collection]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -45,7 +45,7 @@ function App() {
   useEffect(() => {
     try { localStorage.setItem('records-language', language); localStorage.setItem('records-view', view); } catch { /* Preferences are optional. */ }
   }, [language, view]);
-  const selected = albums.find((a) => a.id === albumId);
+  const selected = collection?.albums.find((a) => a.id === albumId);
   const isOpen = !!selected;
   useEffect(() => {
     if (!isOpen && artistNavigation.current) {

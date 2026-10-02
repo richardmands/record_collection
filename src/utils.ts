@@ -75,6 +75,20 @@ export function matchesSearch(album: Album, query: string): boolean {
   return q.split(/\s+/).every((word) => normalized.includes(word));
 }
 
+export function uniqueEditions(albums: Album[]): Album[] {
+  const result: Album[] = [];
+  const same = (a: string, b: string) => !a || !b || normalizeSearch(a).replaceAll(' ', '') === normalizeSearch(b).replaceAll(' ', '');
+  for (const album of albums) {
+    const duplicate = result.some(a =>
+      normalizeSearch(a.artistEn || a.artistJa) === normalizeSearch(album.artistEn || album.artistJa) &&
+      normalizeSearch(a.titleEn || a.titleJa) === normalizeSearch(album.titleEn || album.titleJa) &&
+      same(a.catalogNumber, album.catalogNumber) && same(a.format, album.format) &&
+      same(a.year, album.year) && same(a.country, album.country) && same(a.label, album.label));
+    if (!duplicate) result.push(album);
+  }
+  return result;
+}
+
 export function normalizeSearch(value: string): string {
   return value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
     .replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();

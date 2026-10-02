@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { readSheet } from 'read-excel-file/node';
 import { buildCollection, rowsToObjects, toCsv } from '../scripts/catalog.mjs';
-import { matchesSearch, sortAlbums, displayText } from '../src/utils.ts';
+import { matchesSearch, sortAlbums, displayText, uniqueEditions } from '../src/utils.ts';
 const root=process.cwd();
 const albums=rowsToObjects(await readSheet('data/record_collection.xlsx','Albums'),'Albums');
 const tracks=rowsToObjects(await readSheet('data/record_collection.xlsx','Tracks'),'Tracks');
@@ -83,6 +83,12 @@ test('duplicate copies stay adjacent within artist and year',()=>{
   assert.deepEqual(sorted.map(a=>a.id),['84','110','96','113']);
  }
  assert.deepEqual(records.map(a=>a.id),['110','113','84','96']);
+});
+test('collection view collapses copies while keeping distinct editions and formats',()=>{
+ const album={...collection.albums.find(a=>a.id==='84'),catalogNumber:'ORIGINAL'};
+ const copies=[album,{...album,id:'copy'},{...album,id:'edition',catalogNumber:'DIFFERENT'},{...album,id:'cd',format:'CD'}];
+ assert.deepEqual(uniqueEditions(copies).map(a=>a.id),[album.id,'edition','cd']);
+ assert.equal(copies.length,4);
 });
 test('both artist sorts put each artist’s albums in year order, with unknown years last',()=>{
  for (const key of ['artistEn','artistJa']) {
